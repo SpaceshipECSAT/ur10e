@@ -47,6 +47,14 @@ ament_target_dependencies(test1
   tf2_geometry_msgs
 )
 
+add_executable(test1_redo src/test1_redo.cpp)
+ament_target_dependencies(test1_redo
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  tf2_geometry_msgs
+)
+
 add_executable(aruco_docking_node src/aruco_docking_node.cpp)
 ament_target_dependencies(aruco_docking_node
   rclcpp
@@ -81,6 +89,7 @@ install(TARGETS
 #   auto_dock_node
 #   pick
 #   test_ik
+  test1_redo
   test_world3
   test1
   aruco_docking_node
