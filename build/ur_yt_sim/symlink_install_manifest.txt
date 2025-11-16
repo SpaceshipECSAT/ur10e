@@ -18,6 +18,7 @@
 /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera_gripper.urdf.xacro
 /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_macro.xacro
 /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/initial_positions.yaml
+/home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/kinematics.yaml
 /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers.yaml
 /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers_gripper.yaml
 /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae

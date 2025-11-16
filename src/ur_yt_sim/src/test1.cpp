@@ -1,8 +1,10 @@
 #include <memory>
+#include <vector>
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <geometry_msgs/msg/pose.hpp>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+#include <moveit_msgs/msg/robot_trajectory.hpp>
 
 // test: move to the home pose and then advance to a docking pose.
 
@@ -75,30 +77,29 @@ public:
         move_group.setGoalTolerance(0.03);
         move_group.setStartStateToCurrentState();
 
-        geometry_msgs::msg::Pose elevated_pose = forwardPose();
-        elevated_pose.position.x -= 0.6; // shift 0.6m along -X
+        geometry_msgs::msg::Pose target_pose = forwardPose();
+        // elevated_pose.position.x -= 0.6; // shift 0.6m along -X
 
-        move_group.setPoseTarget(elevated_pose, "wrist_3_link");
+        std::vector<geometry_msgs::msg::Pose> waypoints;
+        waypoints.push_back(target_pose);
 
-        moveit::planning_interface::MoveGroupInterface::Plan my_plan;
-        bool success = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
-        RCLCPP_INFO(logger, "Moving ahead from docking pose: %s", success ? "SUCCESS" : "FAILED");
+        moveit_msgs::msg::RobotTrajectory trajectory;
+        double fraction = move_group.computeCartesianPath(waypoints, 0.01, 0.0, trajectory);
+        RCLCPP_INFO(logger, "Cartesian path fraction: %.2f", fraction);
 
-        if (success)
+        if (fraction < 0.95)
         {
-            auto result = move_group.move();
-            if (result == moveit::core::MoveItErrorCode::SUCCESS)
-            {
-                RCLCPP_INFO(logger, "Additional forward motion execution completed.");
-            }
-            else
-            {
-                RCLCPP_ERROR(logger, "Additional forward motion execution failed: %d", result.val);
-            }
+            RCLCPP_WARN(logger, "Cartesian path fraction low (%.2f); executing partial path.", fraction);
+        }
+
+        auto result = move_group.execute(trajectory);
+        if (result == moveit::core::MoveItErrorCode::SUCCESS)
+        {
+            RCLCPP_INFO(logger, "Cartesian forward motion execution completed.");
         }
         else
         {
-            RCLCPP_ERROR(logger, "Motion planning for additional forward move failed!");
+            RCLCPP_ERROR(logger, "Cartesian forward motion execution failed: %d", result.val);
         }
     }
 

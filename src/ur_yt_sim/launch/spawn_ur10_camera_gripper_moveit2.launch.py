@@ -94,7 +94,7 @@ def generate_launch_description():
         )
         .robot_description_semantic(file_path="config/ur.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
-        .robot_description_kinematics(file_path="config/kinematics.yaml")
+        .robot_description_kinematics(file_path=os.path.join(uryt_share, "config", "kinematics.yaml"))
         .planning_pipelines(pipelines=["ompl", "chomp", "pilz_industrial_motion_planner"])
         .planning_scene_monitor(
             publish_robot_description=True,
