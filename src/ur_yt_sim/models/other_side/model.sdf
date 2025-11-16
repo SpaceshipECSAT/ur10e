@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="other_side">
+    <static>false</static>
+
+    <link name="link">
+      <gravity>false</gravity>
+      <self_collide>false</self_collide>
+      <kinematic>false</kinematic>
+
+      <!-- Inertia: mass 251g * 39.747 for 100kg          <ixx>0.000225756</ixx>
+          <iyy>0.000222532</iyy>
+          <izz>0.000119005</izz> -->
+      <inertial>
+        <mass>10.0</mass>
+        <inertia>
+          <ixx>0.009881</ixx>
+          <iyy>0.008860205</iyy>
+          <izz>0.004738256</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0.0006</iyz>
+        </inertia>
+      </inertial>
+
+      <!-- VISUAL: DAE in meters -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://other_side/meshes/other_side.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+
+
+      <!-- COLLISION using full mesh -->
+        <collision name="collision_full">
+          <geometry>
+                <mesh>
+                 <uri>model://other_side/meshes/other_side.dae</uri>
+                 <scale>1 1 1</scale>
+                </mesh>
+          </geometry>
+
+        <!-- ODE variables, this uses the default, can modify if needed :P -->
+          <surface>
+             <contact><ode/></contact>
+             <friction><ode/></friction>
+          </surface>
+        </collision>
+    </link>
+  </model>
+</sdf>

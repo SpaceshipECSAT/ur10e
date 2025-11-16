@@ -1,0 +1,118 @@
+<sdf version="1.7">
+  <world name="default">
+
+    <!-- Per risolvere package:// in Gazebo -->
+    <plugin name="gazebo_ros_paths" filename="libgazebo_ros_paths_plugin.so"/>
+
+    <!-- Luci / fisica base -->
+    <light name="sun" type="directional">
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <gravity>0 0 0</gravity>
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Ground plane standard -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Tavolo (nomi univoci) -->
+    <model name="table">
+      <static>1</static>
+      <link name="link">
+        <collision name="surface_collision">
+          <pose>0 0 1 0 0 0</pose>
+          <geometry><box><size>1.5 0.8 0.03</size></box></geometry>
+        </collision>
+        <visual name="surface_visual">
+          <pose>0 0 1 0 0 0</pose>
+          <geometry><box><size>1.5 0.8 0.03</size></box></geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Wood</name>
+            </script>
+          </material>
+        </visual>
+
+        <collision name="front_left_leg_collision">
+          <pose>0.68 0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name="front_left_leg_visual">
+          <pose>0.68 0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script>
+          </material>
+        </visual>
+
+        <collision name="front_right_leg_collision">
+          <pose>0.68 -0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name="front_right_leg_visual">
+          <pose>0.68 -0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script>
+          </material>
+        </visual>
+
+        <collision name="back_right_leg_collision">
+          <pose>-0.68 -0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name="back_right_leg_visual">
+          <pose>-0.68 -0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script>
+          </material>
+        </visual>
+
+        <collision name="back_left_leg_collision">
+          <pose>-0.68 0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name="back_left_leg_visual">
+          <pose>-0.68 0.38 0.5 0 0 0</pose>
+          <geometry><cylinder><radius>0.02</radius><length>1</length></cylinder></geometry>
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script>
+          </material>
+        </visual>
+      </link>
+      <pose>1.03 0.06 0 0 0 0</pose>
+    </model>
+
+    <!-- Se hai questi modelli nella tua cartella models/, tienili così -->
+    <model name='euro_pallet'>
+      <include>
+        <uri>model://euro_pallet</uri>
+      </include>
+      <pose>-1.336 0.354 0 0 0 0</pose>
+    </model>
+
+    <model name='mini_stacking_box'>
+      <include>
+        <uri>model://mini_stacking_box</uri>
+      </include>
+      <pose>1.624 1.336 0 0 0 0</pose>
+    </model>
+
+  
+    <plugin name="gazebo_link_attacher" filename="libgazebo_link_attacher.so"/>
+
+  </world>
+</sdf>
+

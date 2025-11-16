@@ -1,0 +1,75 @@
+material aruco/marker0
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      cull_hardware none
+      cull_software none
+      scene_blend replace
+      depth_write on
+      texture_unit
+      {
+        texture aruco_marker_0.png
+      }
+    }
+  }
+}
+
+material aruco/marker1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      cull_hardware none
+      cull_software none
+      scene_blend replace
+      depth_write on
+      texture_unit
+      {
+        texture aruco_marker_1.png
+      }
+    }
+  }
+}
+
+material aruco/marker2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      cull_hardware none
+      cull_software none
+      scene_blend replace
+      depth_write on
+      texture_unit
+      {
+        texture aruco_marker_2.png
+      }
+    }
+  }
+}
+
+material aruco/marker3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      cull_hardware none
+      cull_software none
+      scene_blend replace
+      depth_write on
+      texture_unit
+      {
+        texture aruco_marker_3.png
+      }
+    }
+  }
+}

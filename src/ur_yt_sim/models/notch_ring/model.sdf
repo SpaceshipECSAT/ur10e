@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="notch_ring">
+    <static>false</static>
+
+    <link name="link">
+      <gravity>false</gravity>
+      <self_collide>false</self_collide>
+      <kinematic>false</kinematic>
+
+      <!-- Inertia: mass 461 g,          <ixx>0.07155</ixx>
+          <iyy>0.041175</iyy>
+          <izz>0.078975</izz> -->
+      <inertial>
+        <mass>10.0</mass>
+        <inertia>
+          <ixx>0.012169</ixx>
+          <iyy>0.012239</iyy>
+          <izz>0.011722</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <!-- VISUAL: DAE in meters -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://notch_ring/meshes/notch_ringdae.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+
+      <!-- COLLISION using full mesh -->
+        <collision name="collision_full">
+          <geometry>
+                <mesh>
+                 <uri>model://notch_ring/meshes/notch_ringdae.dae</uri>
+                 <scale>1 1 1</scale>
+                </mesh>
+          </geometry>
+
+        <!-- ODE variables, this uses the default, can modify if needed :P -->
+          <surface>
+             <contact><ode/></contact>
+             <friction><ode/></friction>
+          </surface>
+        </collision>
+    </link>
+  </model>
+</sdf>

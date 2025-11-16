@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="docked_spacecraft">
+    <static>false</static>
+
+    <!-- ====================================== -->
+    <!--   CubeSat main body                   -->
+    <!-- ====================================== -->
+    <link name="cube_sat_link">
+      <pose>0 0 0.3 0 0 0</pose>
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>1.66667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1.66667</iyy>
+          <iyz>0</iyz>
+          <izz>1.66667</izz>
+        </inertia>
+      </inertial>
+      <self_collide>false</self_collide>
+      <enable_wind>false</enable_wind>
+      <kinematic>false</kinematic>
+      <gravity>false</gravity>
+
+      <visual name="cube_visual">
+        <geometry>
+          <box><size>0.5 0.5 0.5</size></box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+        </material>
+      </visual>
+
+      <!-- ArUco fiducials placed on the four top corners of the CubeSat -->
+      <visual name="aruco_marker_0_visual">
+        <pose>0.2 0.2 0.255 0 0 0</pose>
+        <geometry>
+          <plane>
+            <size>0.12 0.12</size>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://docked_spacecraft/materials/scripts</uri>
+            <uri>model://docked_spacecraft/materials/textures</uri>
+            <name>aruco/marker0</name>
+          </script>
+        </material>
+        <double_sided>true</double_sided>
+      </visual>
+
+      <visual name="aruco_marker_1_visual">
+        <pose>-0.2 0.2 0.255 0 0 0</pose>
+        <geometry>
+          <plane>
+            <size>0.12 0.12</size>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://docked_spacecraft/materials/scripts</uri>
+            <uri>model://docked_spacecraft/materials/textures</uri>
+            <name>aruco/marker1</name>
+          </script>
+        </material>
+        <double_sided>true</double_sided>
+      </visual>
+
+      <visual name="aruco_marker_2_visual">
+        <pose>0.2 -0.2 0.255 0 0 0</pose>
+        <geometry>
+          <plane>
+            <size>0.12 0.12</size>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://docked_spacecraft/materials/scripts</uri>
+            <uri>model://docked_spacecraft/materials/textures</uri>
+            <name>aruco/marker2</name>
+          </script>
+        </material>
+        <double_sided>true</double_sided>
+      </visual>
+
+      <visual name="aruco_marker_3_visual">
+        <pose>-0.2 -0.2 0.255 0 0 0</pose>
+        <geometry>
+          <plane>
+            <size>0.12 0.12</size>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://docked_spacecraft/materials/scripts</uri>
+            <uri>model://docked_spacecraft/materials/textures</uri>
+            <name>aruco/marker3</name>
+          </script>
+        </material>
+        <double_sided>true</double_sided>
+      </visual>
+
+      <collision name="cube_collision">
+        <geometry>
+          <box><size>0.5 0.5 0.5</size></box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.1</mu>
+              <mu2>0.1</mu2>
+            </ode>
+          </friction>
+          <bounce><restitution_coefficient>0</restitution_coefficient></bounce>
+          <contact><ode><kp>1e13</kp><kd>1</kd></ode></contact>
+        </surface>
+      </collision>
+    </link>
+
+    <!-- ====================================== -->
+    <!--   Docking Ring (Notch Ring Target)     -->
+    <!-- ====================================== -->
+    <link name="notch_ring_link">
+      <pose>0 0 0.55 0 0 0</pose> <!-- Adjust Z to place it just in front -->
+      <gravity>false</gravity>
+      <self_collide>false</self_collide>
+      <kinematic>false</kinematic>
+
+      <inertial>
+        <mass>10.0</mass>
+        <inertia>
+          <ixx>0.012169</ixx>
+          <iyy>0.012239</iyy>
+          <izz>0.011722</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="notch_ring_visual">
+        <geometry>
+          <mesh>
+            <uri>model://notch_ring/meshes/notch_ringdae.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+
+      <collision name="notch_ring_collision">
+        <geometry>
+          <mesh>
+            <uri>model://notch_ring/meshes/notch_ringdae.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact><ode/></contact>
+          <friction><ode/></friction>
+        </surface>
+      </collision>
+    </link>
+
+    <!-- ====================================== -->
+    <!--   Fixed Joint between both parts       -->
+    <!-- ====================================== -->
+    <joint name="fixed_joint_cubesat_to_ring" type="fixed">
+      <parent>cube_sat_link</parent>
+      <child>notch_ring_link</child>
+    </joint>
+
+  </model>
+</sdf>
