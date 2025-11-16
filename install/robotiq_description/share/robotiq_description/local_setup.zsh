@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description/ament_cmake_environment_hooks/local_setup.zsh

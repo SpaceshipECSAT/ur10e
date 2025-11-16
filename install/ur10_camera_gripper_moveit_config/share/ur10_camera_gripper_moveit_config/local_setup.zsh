@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/build/ur10_camera_gripper_moveit_config/ament_cmake_environment_hooks/local_setup.zsh

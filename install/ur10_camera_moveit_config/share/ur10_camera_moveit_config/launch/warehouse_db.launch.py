@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/src/ur10_camera_moveit_config/launch/warehouse_db.launch.py

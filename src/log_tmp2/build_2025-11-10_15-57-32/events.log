@@ -1,0 +1,1678 @@
+[0.000000] (-) TimerEvent: {}
+[0.000054] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.000073] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.000087] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.000099] (-) JobUnselected: {'identifier': 'ur10_camera_gripper_moveit_config'}
+[0.000113] (-) JobUnselected: {'identifier': 'ur10_camera_moveit_config'}
+[0.000125] (-) JobUnselected: {'identifier': 'ur5_camera_gripper_moveit_config'}
+[0.000137] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config'}
+[0.000149] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.000164] (robotiq_description) JobQueued: {'identifier': 'robotiq_description', 'dependencies': OrderedDict()}
+[0.000179] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.000192] (ur_yt_sim) JobQueued: {'identifier': 'ur_yt_sim', 'dependencies': OrderedDict([('robotiq_description', '/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2'), ('ur_description', '/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2')])}
+[0.000209] (robotiq_description) JobStarted: {'identifier': 'robotiq_description'}
+[0.002826] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.004466] (robotiq_description) JobProgress: {'identifier': 'robotiq_description', 'progress': 'cmake'}
+[0.004643] (robotiq_description) Command: {'cmd': ['/usr/bin/cmake', '/home/spaceshipecsat/ur_10_CatapultTest/src/ros2_robotiq_gripper/robotiq_description', '-DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.006158] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.006179] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '/home/spaceshipecsat/ur_10_CatapultTest/src/Universal_Robots_ROS2_Description', '-DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038582] (robotiq_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.038877] (ur_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.068006] (ur_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.070386] (robotiq_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.071502] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.073913] (robotiq_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099633] (-) TimerEvent: {}
+[0.111419] (robotiq_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.111935] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.114729] (robotiq_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.114850] (robotiq_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.115038] (robotiq_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.116508] (robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.116595] (ur_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.116666] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.116846] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.118309] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.158504] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.160138] (robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.161953] (ur_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.162086] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.162300] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.163369] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.163724] (robotiq_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.163871] (robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.164102] (robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.165146] (robotiq_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199853] (-) TimerEvent: {}
+[0.238136] (ur_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.245678] (robotiq_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.282139] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[0.299951] (-) TimerEvent: {}
+[0.323809] (robotiq_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.325732] (robotiq_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.326931] (robotiq_description) StdoutLine: {'line': b'-- Build files have been written to: /home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description\n'}
+[0.329911] (robotiq_description) CommandEnded: {'returncode': 0}
+[0.330316] (robotiq_description) JobProgress: {'identifier': 'robotiq_description', 'progress': 'build'}
+[0.330838] (robotiq_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description', '--', '-j32', '-l32'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.352467] (robotiq_description) CommandEnded: {'returncode': 0}
+[0.352917] (robotiq_description) JobProgress: {'identifier': 'robotiq_description', 'progress': 'install'}
+[0.358674] (robotiq_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/robotiq_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.363879] (robotiq_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.363948] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/config\n'}
+[0.364052] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/config/robotiq_hand_e_controllers.yaml\n'}
+[0.364216] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/config/robotiq_controllers.yaml\n'}
+[0.364263] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/launch\n'}
+[0.364309] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/launch/view_gripper.launch.py\n'}
+[0.364498] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/launch/hand-e_control.launch.xml\n'}
+[0.364584] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/launch/robotiq_control.launch.py\n'}
+[0.364629] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/launch/view_hand-e.launch.xml\n'}
+[0.364674] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes\n'}
+[0.364719] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual\n'}
+[0.364764] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85\n'}
+[0.364955] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae\n'}
+[0.365032] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae\n'}
+[0.365078] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/left_finger.dae\n'}
+[0.365146] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae\n'}
+[0.366528] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae\n'}
+[0.366651] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/right_finger.dae\n'}
+[0.366935] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae\n'}
+[0.367014] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae\n'}
+[0.367080] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae\n'}
+[0.367150] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae\n'}
+[0.367216] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/hande\n'}
+[0.367283] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/hande/left_finger.dae\n'}
+[0.367407] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/hande/right_finger.dae\n'}
+[0.367595] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/hande/hand-e.dae\n'}
+[0.367874] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140\n'}
+[0.367965] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl\n'}
+[0.368011] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl\n'}
+[0.368083] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl\n'}
+[0.368129] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl\n'}
+[0.368534] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl\n'}
+[0.368625] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl\n'}
+[0.368702] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision\n'}
+[0.368749] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85\n'}
+[0.368831] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl\n'}
+[0.368913] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl\n'}
+[0.368959] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl\n'}
+[0.369002] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl\n'}
+[0.369045] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl\n'}
+[0.369089] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl\n'}
+[0.369172] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/right_finger.stl\n'}
+[0.369220] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl\n'}
+[0.369261] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl\n'}
+[0.369301] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_85/left_finger.stl\n'}
+[0.369342] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/hande\n'}
+[0.369386] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/hande/hand-e_convex_hull.stl\n'}
+[0.369429] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/hande/right_finger.stl\n'}
+[0.369513] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/hande/hand-e.stl\n'}
+[0.369556] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/hande/left_finger.stl\n'}
+[0.369600] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140\n'}
+[0.369643] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl\n'}
+[0.369686] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl\n'}
+[0.369729] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl\n'}
+[0.369808] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl\n'}
+[0.369905] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl\n'}
+[0.369987] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl\n'}
+[0.370031] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/rviz\n'}
+[0.370075] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/rviz/view_urdf.rviz\n'}
+[0.370118] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf\n'}
+[0.370161] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro\n'}
+[0.370204] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro\n'}
+[0.370247] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/2f_140.ros2_control.xacro\n'}
+[0.370290] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro\n'}
+[0.370334] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro\n'}
+[0.370377] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro\n'}
+[0.370420] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_2f_140.xacro\n'}
+[0.370488] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/hand_e.ros2_control.xacro\n'}
+[0.370584] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_hand_e_macro.urdf.xacro\n'}
+[0.370632] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/robotiq_hand_e_gripper.urdf.xacro\n'}
+[0.370699] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/urdf/2f_85.ros2_control.xacro\n'}
+[0.370741] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ament_index/resource_index/package_run_dependencies/robotiq_description\n'}
+[0.370781] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ament_index/resource_index/parent_prefix_path/robotiq_description\n'}
+[0.370829] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/environment/ament_prefix_path.sh\n'}
+[0.370871] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/environment/ament_prefix_path.dsv\n'}
+[0.370911] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/environment/path.sh\n'}
+[0.370951] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/environment/path.dsv\n'}
+[0.370992] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/local_setup.bash\n'}
+[0.371032] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/local_setup.sh\n'}
+[0.371071] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/local_setup.zsh\n'}
+[0.371112] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/local_setup.dsv\n'}
+[0.371152] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/package.dsv\n'}
+[0.371192] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ament_index/resource_index/packages/robotiq_description\n'}
+[0.371235] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake\n'}
+[0.371278] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake\n'}
+[0.371321] (robotiq_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/robotiq_description/package.xml\n'}
+[0.371561] (robotiq_description) CommandEnded: {'returncode': 0}
+[0.377790] (robotiq_description) JobEnded: {'identifier': 'robotiq_description', 'rc': 0}
+[0.400033] (-) TimerEvent: {}
+[0.500214] (-) TimerEvent: {}
+[0.600361] (-) TimerEvent: {}
+[0.610298] (ur_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.611252] (ur_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.612041] (ur_description) StdoutLine: {'line': b'-- Build files have been written to: /home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description\n'}
+[0.700555] (-) TimerEvent: {}
+[0.800845] (-) TimerEvent: {}
+[0.901109] (-) TimerEvent: {}
+[1.001267] (-) TimerEvent: {}
+[1.101428] (-) TimerEvent: {}
+[1.201626] (-) TimerEvent: {}
+[1.301909] (-) TimerEvent: {}
+[1.402074] (-) TimerEvent: {}
+[1.502234] (-) TimerEvent: {}
+[1.602395] (-) TimerEvent: {}
+[1.702670] (-) TimerEvent: {}
+[1.802965] (-) TimerEvent: {}
+[1.903132] (-) TimerEvent: {}
+[2.003418] (-) TimerEvent: {}
+[2.103682] (-) TimerEvent: {}
+[2.204024] (-) TimerEvent: {}
+[2.304282] (-) TimerEvent: {}
+[2.404429] (-) TimerEvent: {}
+[2.504690] (-) TimerEvent: {}
+[2.605031] (-) TimerEvent: {}
+[2.705228] (-) TimerEvent: {}
+[2.805496] (-) TimerEvent: {}
+[2.905771] (-) TimerEvent: {}
+[3.005965] (-) TimerEvent: {}
+[3.106162] (-) TimerEvent: {}
+[3.206325] (-) TimerEvent: {}
+[3.306615] (-) TimerEvent: {}
+[3.406871] (-) TimerEvent: {}
+[3.507068] (-) TimerEvent: {}
+[3.607360] (-) TimerEvent: {}
+[3.707619] (-) TimerEvent: {}
+[3.807862] (-) TimerEvent: {}
+[3.908031] (-) TimerEvent: {}
+[4.008327] (-) TimerEvent: {}
+[4.108549] (-) TimerEvent: {}
+[4.208812] (-) TimerEvent: {}
+[4.309080] (-) TimerEvent: {}
+[4.409353] (-) TimerEvent: {}
+[4.509629] (-) TimerEvent: {}
+[4.609932] (-) TimerEvent: {}
+[4.710171] (-) TimerEvent: {}
+[4.810442] (-) TimerEvent: {}
+[4.910683] (-) TimerEvent: {}
+[5.010977] (-) TimerEvent: {}
+[5.111241] (-) TimerEvent: {}
+[5.211404] (-) TimerEvent: {}
+[5.311622] (-) TimerEvent: {}
+[5.411929] (-) TimerEvent: {}
+[5.512183] (-) TimerEvent: {}
+[5.612359] (-) TimerEvent: {}
+[5.712633] (-) TimerEvent: {}
+[5.812914] (-) TimerEvent: {}
+[5.913081] (-) TimerEvent: {}
+[6.013245] (-) TimerEvent: {}
+[6.113522] (-) TimerEvent: {}
+[6.213826] (-) TimerEvent: {}
+[6.314044] (-) TimerEvent: {}
+[6.414195] (-) TimerEvent: {}
+[6.514510] (-) TimerEvent: {}
+[6.614816] (-) TimerEvent: {}
+[6.715076] (-) TimerEvent: {}
+[6.815255] (-) TimerEvent: {}
+[6.915548] (-) TimerEvent: {}
+[7.015736] (-) TimerEvent: {}
+[7.116072] (-) TimerEvent: {}
+[7.216290] (-) TimerEvent: {}
+[7.316474] (-) TimerEvent: {}
+[7.416624] (-) TimerEvent: {}
+[7.516766] (-) TimerEvent: {}
+[7.616922] (-) TimerEvent: {}
+[7.717077] (-) TimerEvent: {}
+[7.817225] (-) TimerEvent: {}
+[7.917366] (-) TimerEvent: {}
+[8.017533] (-) TimerEvent: {}
+[8.117668] (-) TimerEvent: {}
+[8.217842] (-) TimerEvent: {}
+[8.317968] (-) TimerEvent: {}
+[8.418102] (-) TimerEvent: {}
+[8.518240] (-) TimerEvent: {}
+[8.618378] (-) TimerEvent: {}
+[8.718517] (-) TimerEvent: {}
+[8.818651] (-) TimerEvent: {}
+[8.918778] (-) TimerEvent: {}
+[9.018915] (-) TimerEvent: {}
+[9.119052] (-) TimerEvent: {}
+[9.219190] (-) TimerEvent: {}
+[9.319327] (-) TimerEvent: {}
+[9.419467] (-) TimerEvent: {}
+[9.519633] (-) TimerEvent: {}
+[9.619780] (-) TimerEvent: {}
+[9.719930] (-) TimerEvent: {}
+[9.820071] (-) TimerEvent: {}
+[9.920214] (-) TimerEvent: {}
+[10.020352] (-) TimerEvent: {}
+[10.120498] (-) TimerEvent: {}
+[10.220641] (-) TimerEvent: {}
+[10.320855] (-) TimerEvent: {}
+[10.421002] (-) TimerEvent: {}
+[10.521143] (-) TimerEvent: {}
+[10.621339] (-) TimerEvent: {}
+[10.721474] (-) TimerEvent: {}
+[10.821632] (-) TimerEvent: {}
+[10.921892] (-) TimerEvent: {}
+[11.022028] (-) TimerEvent: {}
+[11.122154] (-) TimerEvent: {}
+[11.222282] (-) TimerEvent: {}
+[11.322408] (-) TimerEvent: {}
+[11.422572] (-) TimerEvent: {}
+[11.522711] (-) TimerEvent: {}
+[11.622867] (-) TimerEvent: {}
+[11.722998] (-) TimerEvent: {}
+[11.823160] (-) TimerEvent: {}
+[11.923331] (-) TimerEvent: {}
+[12.023511] (-) TimerEvent: {}
+[12.123650] (-) TimerEvent: {}
+[12.223821] (-) TimerEvent: {}
+[12.323960] (-) TimerEvent: {}
+[12.424102] (-) TimerEvent: {}
+[12.524238] (-) TimerEvent: {}
+[12.624412] (-) TimerEvent: {}
+[12.724607] (-) TimerEvent: {}
+[12.824834] (-) TimerEvent: {}
+[12.924993] (-) TimerEvent: {}
+[13.025143] (-) TimerEvent: {}
+[13.125276] (-) TimerEvent: {}
+[13.225401] (-) TimerEvent: {}
+[13.325567] (-) TimerEvent: {}
+[13.425730] (-) TimerEvent: {}
+[13.525864] (-) TimerEvent: {}
+[13.625999] (-) TimerEvent: {}
+[13.726131] (-) TimerEvent: {}
+[13.826257] (-) TimerEvent: {}
+[13.926382] (-) TimerEvent: {}
+[14.026537] (-) TimerEvent: {}
+[14.126662] (-) TimerEvent: {}
+[14.226867] (-) TimerEvent: {}
+[14.327011] (-) TimerEvent: {}
+[14.427153] (-) TimerEvent: {}
+[14.527259] (-) TimerEvent: {}
+[14.627398] (-) TimerEvent: {}
+[14.727533] (-) TimerEvent: {}
+[14.827666] (-) TimerEvent: {}
+[14.927859] (-) TimerEvent: {}
+[15.027993] (-) TimerEvent: {}
+[15.128123] (-) TimerEvent: {}
+[15.228254] (-) TimerEvent: {}
+[15.328395] (-) TimerEvent: {}
+[15.428527] (-) TimerEvent: {}
+[15.528656] (-) TimerEvent: {}
+[15.628790] (-) TimerEvent: {}
+[15.728928] (-) TimerEvent: {}
+[15.829056] (-) TimerEvent: {}
+[15.929183] (-) TimerEvent: {}
+[16.029304] (-) TimerEvent: {}
+[16.129435] (-) TimerEvent: {}
+[16.229572] (-) TimerEvent: {}
+[16.329713] (-) TimerEvent: {}
+[16.429886] (-) TimerEvent: {}
+[16.530012] (-) TimerEvent: {}
+[16.630137] (-) TimerEvent: {}
+[16.730270] (-) TimerEvent: {}
+[16.830404] (-) TimerEvent: {}
+[16.930537] (-) TimerEvent: {}
+[17.030665] (-) TimerEvent: {}
+[17.130817] (-) TimerEvent: {}
+[17.230979] (-) TimerEvent: {}
+[17.331137] (-) TimerEvent: {}
+[17.431290] (-) TimerEvent: {}
+[17.531443] (-) TimerEvent: {}
+[17.631577] (-) TimerEvent: {}
+[17.731744] (-) TimerEvent: {}
+[17.831890] (-) TimerEvent: {}
+[17.932035] (-) TimerEvent: {}
+[18.032184] (-) TimerEvent: {}
+[18.132336] (-) TimerEvent: {}
+[18.232478] (-) TimerEvent: {}
+[18.332609] (-) TimerEvent: {}
+[18.432863] (-) TimerEvent: {}
+[18.533001] (-) TimerEvent: {}
+[18.633138] (-) TimerEvent: {}
+[18.733271] (-) TimerEvent: {}
+[18.833438] (-) TimerEvent: {}
+[18.933582] (-) TimerEvent: {}
+[19.033726] (-) TimerEvent: {}
+[19.133876] (-) TimerEvent: {}
+[19.234065] (-) TimerEvent: {}
+[19.334197] (-) TimerEvent: {}
+[19.434328] (-) TimerEvent: {}
+[19.534461] (-) TimerEvent: {}
+[19.634594] (-) TimerEvent: {}
+[19.734722] (-) TimerEvent: {}
+[19.834826] (-) TimerEvent: {}
+[19.934956] (-) TimerEvent: {}
+[20.035099] (-) TimerEvent: {}
+[20.135230] (-) TimerEvent: {}
+[20.235358] (-) TimerEvent: {}
+[20.335483] (-) TimerEvent: {}
+[20.435604] (-) TimerEvent: {}
+[20.535760] (-) TimerEvent: {}
+[20.635903] (-) TimerEvent: {}
+[20.736034] (-) TimerEvent: {}
+[20.836166] (-) TimerEvent: {}
+[20.936297] (-) TimerEvent: {}
+[21.043673] (-) TimerEvent: {}
+[21.143806] (-) TimerEvent: {}
+[21.243931] (-) TimerEvent: {}
+[21.344055] (-) TimerEvent: {}
+[21.444182] (-) TimerEvent: {}
+[21.544310] (-) TimerEvent: {}
+[21.644435] (-) TimerEvent: {}
+[21.744570] (-) TimerEvent: {}
+[21.844731] (-) TimerEvent: {}
+[21.944875] (-) TimerEvent: {}
+[22.045005] (-) TimerEvent: {}
+[22.145134] (-) TimerEvent: {}
+[22.245256] (-) TimerEvent: {}
+[22.345382] (-) TimerEvent: {}
+[22.445519] (-) TimerEvent: {}
+[22.545649] (-) TimerEvent: {}
+[22.645769] (-) TimerEvent: {}
+[22.745915] (-) TimerEvent: {}
+[22.846044] (-) TimerEvent: {}
+[22.946175] (-) TimerEvent: {}
+[23.046303] (-) TimerEvent: {}
+[23.146429] (-) TimerEvent: {}
+[23.246561] (-) TimerEvent: {}
+[23.346703] (-) TimerEvent: {}
+[23.446832] (-) TimerEvent: {}
+[23.546952] (-) TimerEvent: {}
+[23.647087] (-) TimerEvent: {}
+[23.747218] (-) TimerEvent: {}
+[23.847373] (-) TimerEvent: {}
+[23.947506] (-) TimerEvent: {}
+[24.047643] (-) TimerEvent: {}
+[24.147808] (-) TimerEvent: {}
+[24.247937] (-) TimerEvent: {}
+[24.348076] (-) TimerEvent: {}
+[24.448213] (-) TimerEvent: {}
+[24.548361] (-) TimerEvent: {}
+[24.648499] (-) TimerEvent: {}
+[24.748639] (-) TimerEvent: {}
+[24.848781] (-) TimerEvent: {}
+[24.948934] (-) TimerEvent: {}
+[25.049062] (-) TimerEvent: {}
+[25.149196] (-) TimerEvent: {}
+[25.249329] (-) TimerEvent: {}
+[25.349466] (-) TimerEvent: {}
+[25.449599] (-) TimerEvent: {}
+[25.549771] (-) TimerEvent: {}
+[25.649905] (-) TimerEvent: {}
+[25.750032] (-) TimerEvent: {}
+[25.850159] (-) TimerEvent: {}
+[25.950289] (-) TimerEvent: {}
+[26.050431] (-) TimerEvent: {}
+[26.150553] (-) TimerEvent: {}
+[26.250671] (-) TimerEvent: {}
+[26.350840] (-) TimerEvent: {}
+[26.450964] (-) TimerEvent: {}
+[26.551123] (-) TimerEvent: {}
+[26.651302] (-) TimerEvent: {}
+[26.751461] (-) TimerEvent: {}
+[26.851596] (-) TimerEvent: {}
+[26.951863] (-) TimerEvent: {}
+[27.051965] (-) TimerEvent: {}
+[27.152098] (-) TimerEvent: {}
+[27.252236] (-) TimerEvent: {}
+[27.352373] (-) TimerEvent: {}
+[27.452509] (-) TimerEvent: {}
+[27.552647] (-) TimerEvent: {}
+[27.652807] (-) TimerEvent: {}
+[27.752939] (-) TimerEvent: {}
+[27.853061] (-) TimerEvent: {}
+[27.953183] (-) TimerEvent: {}
+[28.053304] (-) TimerEvent: {}
+[28.153466] (-) TimerEvent: {}
+[28.253590] (-) TimerEvent: {}
+[28.353717] (-) TimerEvent: {}
+[28.453870] (-) TimerEvent: {}
+[28.554006] (-) TimerEvent: {}
+[28.654136] (-) TimerEvent: {}
+[28.754293] (-) TimerEvent: {}
+[28.854420] (-) TimerEvent: {}
+[28.954543] (-) TimerEvent: {}
+[29.054668] (-) TimerEvent: {}
+[29.154787] (-) TimerEvent: {}
+[29.254920] (-) TimerEvent: {}
+[29.355052] (-) TimerEvent: {}
+[29.455211] (-) TimerEvent: {}
+[29.555339] (-) TimerEvent: {}
+[29.655470] (-) TimerEvent: {}
+[29.755622] (-) TimerEvent: {}
+[29.855760] (-) TimerEvent: {}
+[29.955895] (-) TimerEvent: {}
+[30.056048] (-) TimerEvent: {}
+[30.156180] (-) TimerEvent: {}
+[30.256316] (-) TimerEvent: {}
+[30.356440] (-) TimerEvent: {}
+[30.407028] (ur_description) CommandEnded: {'returncode': 0}
+[30.407339] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[30.407468] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description', '--', '-j32', '-l32'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.456514] (-) TimerEvent: {}
+[30.556638] (-) TimerEvent: {}
+[30.656767] (-) TimerEvent: {}
+[30.756908] (-) TimerEvent: {}
+[30.857033] (-) TimerEvent: {}
+[30.957159] (-) TimerEvent: {}
+[31.057324] (-) TimerEvent: {}
+[31.157484] (-) TimerEvent: {}
+[31.257614] (-) TimerEvent: {}
+[31.357863] (-) TimerEvent: {}
+[31.458045] (-) TimerEvent: {}
+[31.558168] (-) TimerEvent: {}
+[31.658304] (-) TimerEvent: {}
+[31.758460] (-) TimerEvent: {}
+[31.858595] (-) TimerEvent: {}
+[31.958728] (-) TimerEvent: {}
+[32.058829] (-) TimerEvent: {}
+[32.158951] (-) TimerEvent: {}
+[32.259090] (-) TimerEvent: {}
+[32.359226] (-) TimerEvent: {}
+[32.459359] (-) TimerEvent: {}
+[32.559496] (-) TimerEvent: {}
+[32.659626] (-) TimerEvent: {}
+[32.759748] (-) TimerEvent: {}
+[32.859831] (-) TimerEvent: {}
+[32.959967] (-) TimerEvent: {}
+[33.060251] (-) TimerEvent: {}
+[33.160411] (-) TimerEvent: {}
+[33.260547] (-) TimerEvent: {}
+[33.360677] (-) TimerEvent: {}
+[33.460809] (-) TimerEvent: {}
+[33.560935] (-) TimerEvent: {}
+[33.661060] (-) TimerEvent: {}
+[33.761191] (-) TimerEvent: {}
+[33.861320] (-) TimerEvent: {}
+[33.961440] (-) TimerEvent: {}
+[34.061561] (-) TimerEvent: {}
+[34.161689] (-) TimerEvent: {}
+[34.261819] (-) TimerEvent: {}
+[34.361938] (-) TimerEvent: {}
+[34.462065] (-) TimerEvent: {}
+[34.562229] (-) TimerEvent: {}
+[34.662393] (-) TimerEvent: {}
+[34.762527] (-) TimerEvent: {}
+[34.862661] (-) TimerEvent: {}
+[34.962838] (-) TimerEvent: {}
+[35.063008] (-) TimerEvent: {}
+[35.163130] (-) TimerEvent: {}
+[35.263253] (-) TimerEvent: {}
+[35.363423] (-) TimerEvent: {}
+[35.463553] (-) TimerEvent: {}
+[35.563717] (-) TimerEvent: {}
+[35.663833] (-) TimerEvent: {}
+[35.763990] (-) TimerEvent: {}
+[35.864121] (-) TimerEvent: {}
+[35.964287] (-) TimerEvent: {}
+[36.064437] (-) TimerEvent: {}
+[36.164578] (-) TimerEvent: {}
+[36.264707] (-) TimerEvent: {}
+[36.364885] (-) TimerEvent: {}
+[36.465019] (-) TimerEvent: {}
+[36.565161] (-) TimerEvent: {}
+[36.665297] (-) TimerEvent: {}
+[36.765436] (-) TimerEvent: {}
+[36.865570] (-) TimerEvent: {}
+[36.965750] (-) TimerEvent: {}
+[37.065898] (-) TimerEvent: {}
+[37.166029] (-) TimerEvent: {}
+[37.266160] (-) TimerEvent: {}
+[37.366291] (-) TimerEvent: {}
+[37.466458] (-) TimerEvent: {}
+[37.566597] (-) TimerEvent: {}
+[37.666772] (-) TimerEvent: {}
+[37.766977] (-) TimerEvent: {}
+[37.867112] (-) TimerEvent: {}
+[37.967242] (-) TimerEvent: {}
+[38.067409] (-) TimerEvent: {}
+[38.167573] (-) TimerEvent: {}
+[38.267698] (-) TimerEvent: {}
+[38.367832] (-) TimerEvent: {}
+[38.467956] (-) TimerEvent: {}
+[38.568078] (-) TimerEvent: {}
+[38.668202] (-) TimerEvent: {}
+[38.768326] (-) TimerEvent: {}
+[38.868459] (-) TimerEvent: {}
+[38.968587] (-) TimerEvent: {}
+[39.068824] (-) TimerEvent: {}
+[39.168980] (-) TimerEvent: {}
+[39.269122] (-) TimerEvent: {}
+[39.369252] (-) TimerEvent: {}
+[39.469381] (-) TimerEvent: {}
+[39.569567] (-) TimerEvent: {}
+[39.669734] (-) TimerEvent: {}
+[39.769866] (-) TimerEvent: {}
+[39.869990] (-) TimerEvent: {}
+[39.970115] (-) TimerEvent: {}
+[40.070243] (-) TimerEvent: {}
+[40.170371] (-) TimerEvent: {}
+[40.270494] (-) TimerEvent: {}
+[40.370611] (-) TimerEvent: {}
+[40.470730] (-) TimerEvent: {}
+[40.570879] (-) TimerEvent: {}
+[40.671001] (-) TimerEvent: {}
+[40.771122] (-) TimerEvent: {}
+[40.871282] (-) TimerEvent: {}
+[40.971426] (-) TimerEvent: {}
+[41.071590] (-) TimerEvent: {}
+[41.171789] (-) TimerEvent: {}
+[41.271931] (-) TimerEvent: {}
+[41.372054] (-) TimerEvent: {}
+[41.472181] (-) TimerEvent: {}
+[41.572433] (-) TimerEvent: {}
+[41.672668] (-) TimerEvent: {}
+[41.772809] (-) TimerEvent: {}
+[41.872938] (-) TimerEvent: {}
+[41.973101] (-) TimerEvent: {}
+[42.073270] (-) TimerEvent: {}
+[42.173432] (-) TimerEvent: {}
+[42.273560] (-) TimerEvent: {}
+[42.373721] (-) TimerEvent: {}
+[42.473840] (-) TimerEvent: {}
+[42.573999] (-) TimerEvent: {}
+[42.674174] (-) TimerEvent: {}
+[42.774300] (-) TimerEvent: {}
+[42.874418] (-) TimerEvent: {}
+[42.974574] (-) TimerEvent: {}
+[43.074705] (-) TimerEvent: {}
+[43.174829] (-) TimerEvent: {}
+[43.274946] (-) TimerEvent: {}
+[43.375062] (-) TimerEvent: {}
+[43.475268] (-) TimerEvent: {}
+[43.575436] (-) TimerEvent: {}
+[43.675668] (-) TimerEvent: {}
+[43.775898] (-) TimerEvent: {}
+[43.876036] (-) TimerEvent: {}
+[43.976178] (-) TimerEvent: {}
+[44.076314] (-) TimerEvent: {}
+[44.176455] (-) TimerEvent: {}
+[44.276588] (-) TimerEvent: {}
+[44.376719] (-) TimerEvent: {}
+[44.476827] (-) TimerEvent: {}
+[44.576953] (-) TimerEvent: {}
+[44.677173] (-) TimerEvent: {}
+[44.777415] (-) TimerEvent: {}
+[44.877553] (-) TimerEvent: {}
+[44.977812] (-) TimerEvent: {}
+[45.077943] (-) TimerEvent: {}
+[45.178171] (-) TimerEvent: {}
+[45.278310] (-) TimerEvent: {}
+[45.378484] (-) TimerEvent: {}
+[45.478721] (-) TimerEvent: {}
+[45.578862] (-) TimerEvent: {}
+[45.678987] (-) TimerEvent: {}
+[45.779106] (-) TimerEvent: {}
+[45.879327] (-) TimerEvent: {}
+[45.979463] (-) TimerEvent: {}
+[46.079627] (-) TimerEvent: {}
+[46.179889] (-) TimerEvent: {}
+[46.280049] (-) TimerEvent: {}
+[46.380169] (-) TimerEvent: {}
+[46.480291] (-) TimerEvent: {}
+[46.580408] (-) TimerEvent: {}
+[46.680534] (-) TimerEvent: {}
+[46.780671] (-) TimerEvent: {}
+[46.880804] (-) TimerEvent: {}
+[46.980930] (-) TimerEvent: {}
+[47.081060] (-) TimerEvent: {}
+[47.181184] (-) TimerEvent: {}
+[47.281305] (-) TimerEvent: {}
+[47.381528] (-) TimerEvent: {}
+[47.481761] (-) TimerEvent: {}
+[47.581930] (-) TimerEvent: {}
+[47.682084] (-) TimerEvent: {}
+[47.782213] (-) TimerEvent: {}
+[47.882345] (-) TimerEvent: {}
+[47.982468] (-) TimerEvent: {}
+[48.082585] (-) TimerEvent: {}
+[48.182738] (-) TimerEvent: {}
+[48.282899] (-) TimerEvent: {}
+[48.383019] (-) TimerEvent: {}
+[48.483143] (-) TimerEvent: {}
+[48.583271] (-) TimerEvent: {}
+[48.683397] (-) TimerEvent: {}
+[48.783551] (-) TimerEvent: {}
+[48.883676] (-) TimerEvent: {}
+[48.983840] (-) TimerEvent: {}
+[49.084003] (-) TimerEvent: {}
+[49.184127] (-) TimerEvent: {}
+[49.284262] (-) TimerEvent: {}
+[49.384385] (-) TimerEvent: {}
+[49.484503] (-) TimerEvent: {}
+[49.584625] (-) TimerEvent: {}
+[49.684750] (-) TimerEvent: {}
+[49.784837] (-) TimerEvent: {}
+[49.884968] (-) TimerEvent: {}
+[49.985130] (-) TimerEvent: {}
+[50.085246] (-) TimerEvent: {}
+[50.185368] (-) TimerEvent: {}
+[50.285589] (-) TimerEvent: {}
+[50.385741] (-) TimerEvent: {}
+[50.485898] (-) TimerEvent: {}
+[50.586111] (-) TimerEvent: {}
+[50.686237] (-) TimerEvent: {}
+[50.786368] (-) TimerEvent: {}
+[50.886534] (-) TimerEvent: {}
+[50.986661] (-) TimerEvent: {}
+[51.086788] (-) TimerEvent: {}
+[51.186919] (-) TimerEvent: {}
+[51.287085] (-) TimerEvent: {}
+[51.387317] (-) TimerEvent: {}
+[51.487455] (-) TimerEvent: {}
+[51.587609] (-) TimerEvent: {}
+[51.687769] (-) TimerEvent: {}
+[51.787897] (-) TimerEvent: {}
+[51.888026] (-) TimerEvent: {}
+[51.988232] (-) TimerEvent: {}
+[52.088357] (-) TimerEvent: {}
+[52.188486] (-) TimerEvent: {}
+[52.288615] (-) TimerEvent: {}
+[52.388737] (-) TimerEvent: {}
+[52.488837] (-) TimerEvent: {}
+[52.588963] (-) TimerEvent: {}
+[52.689097] (-) TimerEvent: {}
+[52.789232] (-) TimerEvent: {}
+[52.889386] (-) TimerEvent: {}
+[52.989543] (-) TimerEvent: {}
+[53.089696] (-) TimerEvent: {}
+[53.189898] (-) TimerEvent: {}
+[53.290048] (-) TimerEvent: {}
+[53.390201] (-) TimerEvent: {}
+[53.490347] (-) TimerEvent: {}
+[53.590495] (-) TimerEvent: {}
+[53.690648] (-) TimerEvent: {}
+[53.790837] (-) TimerEvent: {}
+[53.891027] (-) TimerEvent: {}
+[53.991208] (-) TimerEvent: {}
+[54.091360] (-) TimerEvent: {}
+[54.191553] (-) TimerEvent: {}
+[54.291717] (-) TimerEvent: {}
+[54.391847] (-) TimerEvent: {}
+[54.492017] (-) TimerEvent: {}
+[54.592184] (-) TimerEvent: {}
+[54.692358] (-) TimerEvent: {}
+[54.792567] (-) TimerEvent: {}
+[54.892768] (-) TimerEvent: {}
+[54.992926] (-) TimerEvent: {}
+[55.093074] (-) TimerEvent: {}
+[55.193220] (-) TimerEvent: {}
+[55.293368] (-) TimerEvent: {}
+[55.393559] (-) TimerEvent: {}
+[55.493787] (-) TimerEvent: {}
+[55.594005] (-) TimerEvent: {}
+[55.694164] (-) TimerEvent: {}
+[55.794317] (-) TimerEvent: {}
+[55.894540] (-) TimerEvent: {}
+[55.994731] (-) TimerEvent: {}
+[56.094969] (-) TimerEvent: {}
+[56.195116] (-) TimerEvent: {}
+[56.295268] (-) TimerEvent: {}
+[56.404267] (-) TimerEvent: {}
+[56.504517] (-) TimerEvent: {}
+[56.604669] (-) TimerEvent: {}
+[56.704824] (-) TimerEvent: {}
+[56.804951] (-) TimerEvent: {}
+[56.905073] (-) TimerEvent: {}
+[57.005231] (-) TimerEvent: {}
+[57.105368] (-) TimerEvent: {}
+[57.205500] (-) TimerEvent: {}
+[57.305623] (-) TimerEvent: {}
+[57.405761] (-) TimerEvent: {}
+[57.505925] (-) TimerEvent: {}
+[57.606052] (-) TimerEvent: {}
+[57.706185] (-) TimerEvent: {}
+[57.806309] (-) TimerEvent: {}
+[57.906466] (-) TimerEvent: {}
+[58.006591] (-) TimerEvent: {}
+[58.106752] (-) TimerEvent: {}
+[58.206889] (-) TimerEvent: {}
+[58.307017] (-) TimerEvent: {}
+[58.407171] (-) TimerEvent: {}
+[58.507344] (-) TimerEvent: {}
+[58.607480] (-) TimerEvent: {}
+[58.707659] (-) TimerEvent: {}
+[58.807821] (-) TimerEvent: {}
+[58.907944] (-) TimerEvent: {}
+[59.008073] (-) TimerEvent: {}
+[59.108235] (-) TimerEvent: {}
+[59.208368] (-) TimerEvent: {}
+[59.308505] (-) TimerEvent: {}
+[59.408641] (-) TimerEvent: {}
+[59.508812] (-) TimerEvent: {}
+[59.608945] (-) TimerEvent: {}
+[59.709074] (-) TimerEvent: {}
+[59.809249] (-) TimerEvent: {}
+[59.909393] (-) TimerEvent: {}
+[60.009527] (-) TimerEvent: {}
+[60.109689] (-) TimerEvent: {}
+[60.209823] (-) TimerEvent: {}
+[60.309955] (-) TimerEvent: {}
+[60.410124] (-) TimerEvent: {}
+[60.428528] (ur_description) CommandEnded: {'returncode': 0}
+[60.428868] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[60.428979] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[60.435106] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.435187] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config\n'}
+[60.435210] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur8long\n'}
+[60.435232] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur8long/joint_limits.yaml\n'}
+[60.435275] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur8long/visual_parameters.yaml\n'}
+[60.435299] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur8long/default_kinematics.yaml\n'}
+[60.435352] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur8long/physical_parameters.yaml\n'}
+[60.435472] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10\n'}
+[60.435499] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[60.435521] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[60.435541] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[60.435560] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[60.435580] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur15\n'}
+[60.435599] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur15/joint_limits.yaml\n'}
+[60.435663] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur15/visual_parameters.yaml\n'}
+[60.435702] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur15/default_kinematics.yaml\n'}
+[60.435722] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur15/physical_parameters.yaml\n'}
+[60.435741] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur20\n'}
+[60.435784] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur20/joint_limits.yaml\n'}
+[60.435842] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur20/visual_parameters.yaml\n'}
+[60.435892] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur20/default_kinematics.yaml\n'}
+[60.435912] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur20/physical_parameters.yaml\n'}
+[60.435930] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/initial_positions.yaml\n'}
+[60.435949] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur12e\n'}
+[60.435968] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur12e/joint_limits.yaml\n'}
+[60.435986] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur12e/visual_parameters.yaml\n'}
+[60.436005] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur12e/default_kinematics.yaml\n'}
+[60.436065] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur12e/physical_parameters.yaml\n'}
+[60.436084] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3e\n'}
+[60.436103] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[60.436121] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[60.436139] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[60.436157] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[60.436174] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur30\n'}
+[60.436192] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur30/joint_limits.yaml\n'}
+[60.436210] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur30/visual_parameters.yaml\n'}
+[60.436227] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur30/default_kinematics.yaml\n'}
+[60.436245] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur30/physical_parameters.yaml\n'}
+[60.436313] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur16e\n'}
+[60.436335] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[60.436354] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[60.436420] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[60.436439] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[60.436458] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3\n'}
+[60.436476] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[60.436516] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[60.436535] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[60.436554] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[60.436571] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5e\n'}
+[60.436589] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[60.436606] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[60.436624] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[60.436641] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[60.436659] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur7e\n'}
+[60.436677] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur7e/joint_limits.yaml\n'}
+[60.436694] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur7e/visual_parameters.yaml\n'}
+[60.436768] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur7e/default_kinematics.yaml\n'}
+[60.436788] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur7e/physical_parameters.yaml\n'}
+[60.436810] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5\n'}
+[60.436829] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[60.436847] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[60.436918] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[60.436937] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[60.436955] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10e\n'}
+[60.436991] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[60.437007] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[60.437023] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[60.437040] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[60.437057] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/launch\n'}
+[60.437073] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/launch/view_ur.launch.py\n'}
+[60.437092] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes\n'}
+[60.437110] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long\n'}
+[60.437128] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/visual\n'}
+[60.437145] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg\n'}
+[60.437184] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/visual/upperarm.dae\n'}
+[60.437340] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/visual/forearm.dae\n'}
+[60.437582] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/LICENSE.txt\n'}
+[60.437622] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/collision\n'}
+[60.437659] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/collision/upperarm.stl\n'}
+[60.437705] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur8long/collision/forearm.stl\n'}
+[60.437763] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10\n'}
+[60.437802] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual\n'}
+[60.437841] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[60.438449] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[60.438534] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[60.439662] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[60.440369] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[60.441350] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[60.441946] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[60.442162] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision\n'}
+[60.442189] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[60.442242] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[60.442263] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[60.442298] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[60.442350] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[60.442407] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[60.442443] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[60.442493] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15\n'}
+[60.442534] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual\n'}
+[60.442552] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/wrist1.dae\n'}
+[60.442630] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg\n'}
+[60.442767] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/base.dae\n'}
+[60.442941] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/wrist2.dae\n'}
+[60.443029] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/upperarm.dae\n'}
+[60.443222] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/forearm.dae\n'}
+[60.443431] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/shoulder.dae\n'}
+[60.443523] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/visual/wrist3.dae\n'}
+[60.443657] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/LICENSE.txt\n'}
+[60.443704] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision\n'}
+[60.443740] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/wrist1.stl\n'}
+[60.443777] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/wrist3.stl\n'}
+[60.443815] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/upperarm.stl\n'}
+[60.443853] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/wrist2.stl\n'}
+[60.443897] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/forearm.stl\n'}
+[60.443938] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/base.stl\n'}
+[60.443988] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur15/collision/shoulder.stl\n'}
+[60.444063] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20\n'}
+[60.444083] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual\n'}
+[60.444102] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/wrist1.dae\n'}
+[60.444197] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/base.dae\n'}
+[60.444381] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/wrist2.dae\n'}
+[60.444534] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/upperarm.dae\n'}
+[60.444855] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/forearm.dae\n'}
+[60.445187] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png\n'}
+[60.445891] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/shoulder.dae\n'}
+[60.445995] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/visual/wrist3.dae\n'}
+[60.446178] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/LICENSE.txt\n'}
+[60.446214] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision\n'}
+[60.446252] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/wrist1.stl\n'}
+[60.446289] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/wrist3.stl\n'}
+[60.446328] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/upperarm.stl\n'}
+[60.446384] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/wrist2.stl\n'}
+[60.446421] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/forearm.stl\n'}
+[60.446506] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/base.stl\n'}
+[60.446544] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur20/collision/shoulder.stl\n'}
+[60.446586] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e\n'}
+[60.446638] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual\n'}
+[60.446660] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[60.447213] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[60.447331] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[60.448064] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[60.449544] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[60.450074] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[60.451026] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[60.451083] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision\n'}
+[60.451122] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[60.451161] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[60.451197] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[60.451263] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[60.451321] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[60.451370] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[60.451406] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[60.451473] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30\n'}
+[60.451512] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/visual\n'}
+[60.451530] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/visual/upperarm.dae\n'}
+[60.451834] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/visual/forearm.dae\n'}
+[60.452214] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png\n'}
+[60.452865] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/LICENSE.txt\n'}
+[60.452924] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/collision\n'}
+[60.452958] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/collision/upperarm.stl\n'}
+[60.453000] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur30/collision/forearm.stl\n'}
+[60.453084] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e\n'}
+[60.453128] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e/visual\n'}
+[60.453154] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[60.454673] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[60.455230] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e/collision\n'}
+[60.455272] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[60.455337] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[60.455406] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3\n'}
+[60.455458] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual\n'}
+[60.455476] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[60.455854] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[60.456110] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[60.456417] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[60.457292] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[60.457679] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[60.458372] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[60.458413] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision\n'}
+[60.458452] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[60.458540] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[60.458580] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[60.458840] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[60.458940] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[60.459073] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[60.459271] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[60.459548] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e\n'}
+[60.459588] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual\n'}
+[60.459606] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[60.460130] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[60.460293] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[60.460921] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[60.462134] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[60.462597] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[60.463357] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[60.463407] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision\n'}
+[60.463449] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[60.463487] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[60.463525] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[60.463578] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[60.463643] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[60.463695] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[60.463739] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[60.463781] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5\n'}
+[60.463842] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual\n'}
+[60.463859] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[60.464210] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[60.464299] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[60.464683] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[60.465481] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[60.466070] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[60.466529] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[60.466601] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision\n'}
+[60.466640] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[60.466680] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[60.466718] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[60.466755] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[60.466802] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[60.466852] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[60.466894] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[60.466942] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e\n'}
+[60.466962] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual\n'}
+[60.466998] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[60.467461] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[60.467630] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[60.468226] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[60.469477] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[60.470039] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[60.471027] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[60.471081] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision\n'}
+[60.471122] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[60.471158] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[60.471194] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[60.471255] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[60.471318] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[60.471373] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[60.471411] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[60.471477] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/rviz\n'}
+[60.471567] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/rviz/view_robot.rviz\n'}
+[60.471587] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf\n'}
+[60.471606] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf/inc\n'}
+[60.471625] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[60.471688] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[60.471708] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf/ur.urdf.xacro\n'}
+[60.471727] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf/ur_macro.xacro\n'}
+[60.471745] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/urdf/ur.ros2_control.xacro\n'}
+[60.471807] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/test\n'}
+[60.471872] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[60.471970] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/test/test_view_ur_launch.py\n'}
+[60.472013] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[60.472048] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[60.472073] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/environment/ament_prefix_path.sh\n'}
+[60.472155] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[60.472186] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/environment/path.sh\n'}
+[60.472212] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/environment/path.dsv\n'}
+[60.472237] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/local_setup.bash\n'}
+[60.472261] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/local_setup.sh\n'}
+[60.472315] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/local_setup.zsh\n'}
+[60.472345] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/local_setup.dsv\n'}
+[60.472370] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/package.dsv\n'}
+[60.472395] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ament_index/resource_index/packages/ur_description\n'}
+[60.472448] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[60.472471] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[60.472490] (ur_description) StdoutLine: {'line': b'-- Installing: /home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2/share/ur_description/package.xml\n'}
+[60.510187] (-) TimerEvent: {}
+[60.610307] (-) TimerEvent: {}
+[60.710468] (-) TimerEvent: {}
+[60.810641] (-) TimerEvent: {}
+[60.910786] (-) TimerEvent: {}
+[61.010941] (-) TimerEvent: {}
+[61.111070] (-) TimerEvent: {}
+[61.211206] (-) TimerEvent: {}
+[61.311334] (-) TimerEvent: {}
+[61.411469] (-) TimerEvent: {}
+[61.511609] (-) TimerEvent: {}
+[61.611846] (-) TimerEvent: {}
+[61.711977] (-) TimerEvent: {}
+[61.812211] (-) TimerEvent: {}
+[61.912443] (-) TimerEvent: {}
+[62.012690] (-) TimerEvent: {}
+[62.112828] (-) TimerEvent: {}
+[62.212956] (-) TimerEvent: {}
+[62.313190] (-) TimerEvent: {}
+[62.413324] (-) TimerEvent: {}
+[62.513463] (-) TimerEvent: {}
+[62.613594] (-) TimerEvent: {}
+[62.713717] (-) TimerEvent: {}
+[62.813849] (-) TimerEvent: {}
+[62.913991] (-) TimerEvent: {}
+[63.014119] (-) TimerEvent: {}
+[63.114247] (-) TimerEvent: {}
+[63.214370] (-) TimerEvent: {}
+[63.314494] (-) TimerEvent: {}
+[63.414616] (-) TimerEvent: {}
+[63.514742] (-) TimerEvent: {}
+[63.614863] (-) TimerEvent: {}
+[63.714986] (-) TimerEvent: {}
+[63.815116] (-) TimerEvent: {}
+[63.915252] (-) TimerEvent: {}
+[64.015382] (-) TimerEvent: {}
+[64.115571] (-) TimerEvent: {}
+[64.215807] (-) TimerEvent: {}
+[64.315978] (-) TimerEvent: {}
+[64.416127] (-) TimerEvent: {}
+[64.516269] (-) TimerEvent: {}
+[64.616400] (-) TimerEvent: {}
+[64.716549] (-) TimerEvent: {}
+[64.816670] (-) TimerEvent: {}
+[64.916790] (-) TimerEvent: {}
+[65.016915] (-) TimerEvent: {}
+[65.117067] (-) TimerEvent: {}
+[65.217223] (-) TimerEvent: {}
+[65.317395] (-) TimerEvent: {}
+[65.417508] (-) TimerEvent: {}
+[65.517623] (-) TimerEvent: {}
+[65.617744] (-) TimerEvent: {}
+[65.717874] (-) TimerEvent: {}
+[65.823465] (-) TimerEvent: {}
+[65.923608] (-) TimerEvent: {}
+[66.023763] (-) TimerEvent: {}
+[66.123882] (-) TimerEvent: {}
+[66.224012] (-) TimerEvent: {}
+[66.324138] (-) TimerEvent: {}
+[66.424252] (-) TimerEvent: {}
+[66.524372] (-) TimerEvent: {}
+[66.624496] (-) TimerEvent: {}
+[66.724649] (-) TimerEvent: {}
+[66.824767] (-) TimerEvent: {}
+[66.924887] (-) TimerEvent: {}
+[67.025006] (-) TimerEvent: {}
+[67.125123] (-) TimerEvent: {}
+[67.225238] (-) TimerEvent: {}
+[67.325362] (-) TimerEvent: {}
+[67.425549] (-) TimerEvent: {}
+[67.525674] (-) TimerEvent: {}
+[67.625811] (-) TimerEvent: {}
+[67.725931] (-) TimerEvent: {}
+[67.826052] (-) TimerEvent: {}
+[67.926187] (-) TimerEvent: {}
+[68.026318] (-) TimerEvent: {}
+[68.126437] (-) TimerEvent: {}
+[68.226555] (-) TimerEvent: {}
+[68.326752] (-) TimerEvent: {}
+[68.426888] (-) TimerEvent: {}
+[68.527021] (-) TimerEvent: {}
+[68.627143] (-) TimerEvent: {}
+[68.727259] (-) TimerEvent: {}
+[68.827374] (-) TimerEvent: {}
+[68.927498] (-) TimerEvent: {}
+[69.027617] (-) TimerEvent: {}
+[69.127740] (-) TimerEvent: {}
+[69.227959] (-) TimerEvent: {}
+[69.328095] (-) TimerEvent: {}
+[69.428214] (-) TimerEvent: {}
+[69.528346] (-) TimerEvent: {}
+[69.628522] (-) TimerEvent: {}
+[69.728656] (-) TimerEvent: {}
+[69.828806] (-) TimerEvent: {}
+[69.928965] (-) TimerEvent: {}
+[70.029097] (-) TimerEvent: {}
+[70.129228] (-) TimerEvent: {}
+[70.229362] (-) TimerEvent: {}
+[70.329494] (-) TimerEvent: {}
+[70.429654] (-) TimerEvent: {}
+[70.529836] (-) TimerEvent: {}
+[70.629979] (-) TimerEvent: {}
+[70.730106] (-) TimerEvent: {}
+[70.830233] (-) TimerEvent: {}
+[70.930409] (-) TimerEvent: {}
+[71.030597] (-) TimerEvent: {}
+[71.130827] (-) TimerEvent: {}
+[71.230953] (-) TimerEvent: {}
+[71.331083] (-) TimerEvent: {}
+[71.431279] (-) TimerEvent: {}
+[71.531511] (-) TimerEvent: {}
+[71.631698] (-) TimerEvent: {}
+[71.731944] (-) TimerEvent: {}
+[71.832163] (-) TimerEvent: {}
+[71.932345] (-) TimerEvent: {}
+[72.032483] (-) TimerEvent: {}
+[72.132627] (-) TimerEvent: {}
+[72.232853] (-) TimerEvent: {}
+[72.333079] (-) TimerEvent: {}
+[72.433297] (-) TimerEvent: {}
+[72.533481] (-) TimerEvent: {}
+[72.633619] (-) TimerEvent: {}
+[72.733759] (-) TimerEvent: {}
+[72.833995] (-) TimerEvent: {}
+[72.934219] (-) TimerEvent: {}
+[73.034390] (-) TimerEvent: {}
+[73.134568] (-) TimerEvent: {}
+[73.234703] (-) TimerEvent: {}
+[73.334882] (-) TimerEvent: {}
+[73.435024] (-) TimerEvent: {}
+[73.535188] (-) TimerEvent: {}
+[73.635314] (-) TimerEvent: {}
+[73.735482] (-) TimerEvent: {}
+[73.835610] (-) TimerEvent: {}
+[73.935739] (-) TimerEvent: {}
+[74.035876] (-) TimerEvent: {}
+[74.136062] (-) TimerEvent: {}
+[74.236207] (-) TimerEvent: {}
+[74.336347] (-) TimerEvent: {}
+[74.436488] (-) TimerEvent: {}
+[74.536635] (-) TimerEvent: {}
+[74.636772] (-) TimerEvent: {}
+[74.736915] (-) TimerEvent: {}
+[74.837049] (-) TimerEvent: {}
+[74.937177] (-) TimerEvent: {}
+[75.037305] (-) TimerEvent: {}
+[75.137437] (-) TimerEvent: {}
+[75.237574] (-) TimerEvent: {}
+[75.337850] (-) TimerEvent: {}
+[75.438019] (-) TimerEvent: {}
+[75.538189] (-) TimerEvent: {}
+[75.638363] (-) TimerEvent: {}
+[75.738493] (-) TimerEvent: {}
+[75.838625] (-) TimerEvent: {}
+[75.938768] (-) TimerEvent: {}
+[76.038908] (-) TimerEvent: {}
+[76.139033] (-) TimerEvent: {}
+[76.239278] (-) TimerEvent: {}
+[76.339415] (-) TimerEvent: {}
+[76.439545] (-) TimerEvent: {}
+[76.539681] (-) TimerEvent: {}
+[76.639820] (-) TimerEvent: {}
+[76.739958] (-) TimerEvent: {}
+[76.840104] (-) TimerEvent: {}
+[76.940238] (-) TimerEvent: {}
+[77.040361] (-) TimerEvent: {}
+[77.140490] (-) TimerEvent: {}
+[77.240617] (-) TimerEvent: {}
+[77.340737] (-) TimerEvent: {}
+[77.440834] (-) TimerEvent: {}
+[77.540964] (-) TimerEvent: {}
+[77.641090] (-) TimerEvent: {}
+[77.741221] (-) TimerEvent: {}
+[77.841453] (-) TimerEvent: {}
+[77.941641] (-) TimerEvent: {}
+[78.041836] (-) TimerEvent: {}
+[78.141972] (-) TimerEvent: {}
+[78.242211] (-) TimerEvent: {}
+[78.342468] (-) TimerEvent: {}
+[78.442702] (-) TimerEvent: {}
+[78.542902] (-) TimerEvent: {}
+[78.643035] (-) TimerEvent: {}
+[78.743160] (-) TimerEvent: {}
+[78.843295] (-) TimerEvent: {}
+[78.943494] (-) TimerEvent: {}
+[79.043620] (-) TimerEvent: {}
+[79.143766] (-) TimerEvent: {}
+[79.244011] (-) TimerEvent: {}
+[79.344188] (-) TimerEvent: {}
+[79.444315] (-) TimerEvent: {}
+[79.544442] (-) TimerEvent: {}
+[79.644557] (-) TimerEvent: {}
+[79.744701] (-) TimerEvent: {}
+[79.844836] (-) TimerEvent: {}
+[79.944968] (-) TimerEvent: {}
+[80.045103] (-) TimerEvent: {}
+[80.145240] (-) TimerEvent: {}
+[80.245386] (-) TimerEvent: {}
+[80.345556] (-) TimerEvent: {}
+[80.445701] (-) TimerEvent: {}
+[80.545852] (-) TimerEvent: {}
+[80.645992] (-) TimerEvent: {}
+[80.746127] (-) TimerEvent: {}
+[80.846294] (-) TimerEvent: {}
+[80.946576] (-) TimerEvent: {}
+[81.046824] (-) TimerEvent: {}
+[81.146954] (-) TimerEvent: {}
+[81.247111] (-) TimerEvent: {}
+[81.347279] (-) TimerEvent: {}
+[81.447432] (-) TimerEvent: {}
+[81.547570] (-) TimerEvent: {}
+[81.647712] (-) TimerEvent: {}
+[81.747864] (-) TimerEvent: {}
+[81.848048] (-) TimerEvent: {}
+[81.948205] (-) TimerEvent: {}
+[82.048364] (-) TimerEvent: {}
+[82.148508] (-) TimerEvent: {}
+[82.248648] (-) TimerEvent: {}
+[82.348792] (-) TimerEvent: {}
+[82.448950] (-) TimerEvent: {}
+[82.549097] (-) TimerEvent: {}
+[82.649246] (-) TimerEvent: {}
+[82.749389] (-) TimerEvent: {}
+[82.849535] (-) TimerEvent: {}
+[82.949697] (-) TimerEvent: {}
+[83.049835] (-) TimerEvent: {}
+[83.150005] (-) TimerEvent: {}
+[83.250136] (-) TimerEvent: {}
+[83.350272] (-) TimerEvent: {}
+[83.450418] (-) TimerEvent: {}
+[83.550562] (-) TimerEvent: {}
+[83.650698] (-) TimerEvent: {}
+[83.750978] (-) TimerEvent: {}
+[83.851244] (-) TimerEvent: {}
+[83.951402] (-) TimerEvent: {}
+[84.051635] (-) TimerEvent: {}
+[84.151948] (-) TimerEvent: {}
+[84.252123] (-) TimerEvent: {}
+[84.352299] (-) TimerEvent: {}
+[84.452557] (-) TimerEvent: {}
+[84.552852] (-) TimerEvent: {}
+[84.653151] (-) TimerEvent: {}
+[84.753316] (-) TimerEvent: {}
+[84.853582] (-) TimerEvent: {}
+[84.953851] (-) TimerEvent: {}
+[85.054010] (-) TimerEvent: {}
+[85.154170] (-) TimerEvent: {}
+[85.254360] (-) TimerEvent: {}
+[85.354583] (-) TimerEvent: {}
+[85.454808] (-) TimerEvent: {}
+[85.554930] (-) TimerEvent: {}
+[85.655081] (-) TimerEvent: {}
+[85.755263] (-) TimerEvent: {}
+[85.855418] (-) TimerEvent: {}
+[85.955638] (-) TimerEvent: {}
+[86.055908] (-) TimerEvent: {}
+[86.156128] (-) TimerEvent: {}
+[86.256291] (-) TimerEvent: {}
+[86.356517] (-) TimerEvent: {}
+[86.456746] (-) TimerEvent: {}
+[86.557013] (-) TimerEvent: {}
+[86.657180] (-) TimerEvent: {}
+[86.757341] (-) TimerEvent: {}
+[86.857572] (-) TimerEvent: {}
+[86.957882] (-) TimerEvent: {}
+[87.058047] (-) TimerEvent: {}
+[87.158186] (-) TimerEvent: {}
+[87.258291] (-) TimerEvent: {}
+[87.358425] (-) TimerEvent: {}
+[87.458629] (-) TimerEvent: {}
+[87.558892] (-) TimerEvent: {}
+[87.659056] (-) TimerEvent: {}
+[87.759216] (-) TimerEvent: {}
+[87.859452] (-) TimerEvent: {}
+[87.959672] (-) TimerEvent: {}
+[88.059922] (-) TimerEvent: {}
+[88.160084] (-) TimerEvent: {}
+[88.260240] (-) TimerEvent: {}
+[88.360390] (-) TimerEvent: {}
+[88.460582] (-) TimerEvent: {}
+[88.560717] (-) TimerEvent: {}
+[88.660956] (-) TimerEvent: {}
+[88.761107] (-) TimerEvent: {}
+[88.861257] (-) TimerEvent: {}
+[88.961475] (-) TimerEvent: {}
+[89.061747] (-) TimerEvent: {}
+[89.161987] (-) TimerEvent: {}
+[89.262151] (-) TimerEvent: {}
+[89.362306] (-) TimerEvent: {}
+[89.462528] (-) TimerEvent: {}
+[89.562804] (-) TimerEvent: {}
+[89.662923] (-) TimerEvent: {}
+[89.763209] (-) TimerEvent: {}
+[89.863390] (-) TimerEvent: {}
+[89.963659] (-) TimerEvent: {}
+[90.063874] (-) TimerEvent: {}
+[90.164040] (-) TimerEvent: {}
+[90.264279] (-) TimerEvent: {}
+[90.364562] (-) TimerEvent: {}
+[90.459286] (ur_description) CommandEnded: {'returncode': 0}
+[90.464700] (-) TimerEvent: {}
+[90.470812] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[90.471282] (ur_yt_sim) JobStarted: {'identifier': 'ur_yt_sim'}
+[90.475132] (ur_yt_sim) JobProgress: {'identifier': 'ur_yt_sim', 'progress': 'cmake'}
+[90.475423] (ur_yt_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim', '-DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2'], 'cwd': '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_yt_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/spaceshipecsat/ur_10_CatapultTest/src'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_GB:en'), ('USER', 'spaceshipecsat'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/spaceshipecsat'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/spaceshipecsat/ur_10_CatapultTest'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-f5c9e745-1.10-main.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'spaceshipecsat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('RUST_LOG', 'warn'), ('USERNAME', 'spaceshipecsat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/tmp/.tmpK1hLmi:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/spaceshipecsat/.vscode/extensions/openai.chatgpt-0.4.35-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/uzair:@/tmp/.ICE-unix/2136,unix/uzair:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a953ea0_e5c9_44fe_964b_316e00d73d98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_yt_sim'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/spaceshipecsat/.config/Code/CachedData/2901c5ac6db8a986a5666c3af51ff804d05af0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/spaceshipecsat/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '3537'), ('CMAKE_PREFIX_PATH', '/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2:/opt/ros/humble')]), 'shell': False}
+[90.507895] (ur_yt_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[90.537905] (ur_yt_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[90.541455] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[90.564840] (-) TimerEvent: {}
+[90.587089] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[90.591184] (ur_yt_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[90.591279] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[90.591523] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[90.592857] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[90.636044] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[90.639482] (ur_yt_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[90.639612] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[90.639876] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[90.640986] (ur_yt_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[90.664913] (-) TimerEvent: {}
+[90.720017] (ur_yt_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[90.765116] (-) TimerEvent: {}
+[90.766272] (ur_yt_sim) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[90.766981] (ur_yt_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[90.786524] (ur_yt_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[90.788824] (ur_yt_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[90.792517] (ur_yt_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[90.798001] (ur_yt_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[90.805238] (ur_yt_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[90.825184] (ur_yt_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[90.826345] (ur_yt_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[90.865195] (-) TimerEvent: {}
+[90.874804] (ur_yt_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[90.888886] (ur_yt_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[90.909637] (ur_yt_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[90.913545] (ur_yt_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[90.952516] (ur_yt_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[90.952597] (ur_yt_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[90.965265] (-) TimerEvent: {}
+[90.994115] (ur_yt_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[90.994617] (ur_yt_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[91.019594] (ur_yt_sim) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[91.034658] (ur_yt_sim) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[91.048301] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[91.065359] (-) TimerEvent: {}
+[91.120010] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[91.141018] (ur_yt_sim) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[91.146535] (ur_yt_sim) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[91.158443] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[91.165421] (-) TimerEvent: {}
+[91.210959] (ur_yt_sim) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[91.227343] (ur_yt_sim) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[91.227378] (ur_yt_sim) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[91.265515] (-) TimerEvent: {}
+[91.291134] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[91.306770] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[91.317888] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[91.335830] (ur_yt_sim) StderrLine: {'line': b'CMake Error at CMakeLists.txt:17 (find_package):\n'}
+[91.335897] (ur_yt_sim) StderrLine: {'line': b'  By not providing "Findlinkattacher_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[91.335921] (ur_yt_sim) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[91.335939] (ur_yt_sim) StderrLine: {'line': b'  "linkattacher_msgs", but CMake did not find one.\n'}
+[91.335956] (ur_yt_sim) StderrLine: {'line': b'\n'}
+[91.335972] (ur_yt_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "linkattacher_msgs"\n'}
+[91.335989] (ur_yt_sim) StderrLine: {'line': b'  with any of the following names:\n'}
+[91.336006] (ur_yt_sim) StderrLine: {'line': b'\n'}
+[91.336024] (ur_yt_sim) StderrLine: {'line': b'    linkattacher_msgsConfig.cmake\n'}
+[91.336040] (ur_yt_sim) StderrLine: {'line': b'    linkattacher_msgs-config.cmake\n'}
+[91.336056] (ur_yt_sim) StderrLine: {'line': b'\n'}
+[91.336072] (ur_yt_sim) StderrLine: {'line': b'  Add the installation prefix of "linkattacher_msgs" to CMAKE_PREFIX_PATH or\n'}
+[91.336087] (ur_yt_sim) StderrLine: {'line': b'  set "linkattacher_msgs_DIR" to a directory containing one of the above\n'}
+[91.336103] (ur_yt_sim) StderrLine: {'line': b'  files.  If "linkattacher_msgs" provides a separate development package or\n'}
+[91.336118] (ur_yt_sim) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[91.336134] (ur_yt_sim) StderrLine: {'line': b'\n'}
+[91.336149] (ur_yt_sim) StderrLine: {'line': b'\n'}
+[91.336164] (ur_yt_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[91.336185] (ur_yt_sim) StdoutLine: {'line': b'See also "/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_yt_sim/CMakeFiles/CMakeOutput.log".\n'}
+[91.365602] (-) TimerEvent: {}
+[91.465742] (-) TimerEvent: {}
+[91.565886] (-) TimerEvent: {}
+[91.666029] (-) TimerEvent: {}
+[91.766165] (-) TimerEvent: {}
+[91.866300] (-) TimerEvent: {}
+[91.966445] (-) TimerEvent: {}
+[92.066591] (-) TimerEvent: {}
+[92.166724] (-) TimerEvent: {}
+[92.266841] (-) TimerEvent: {}
+[92.366967] (-) TimerEvent: {}
+[92.467156] (-) TimerEvent: {}
+[92.567282] (-) TimerEvent: {}
+[92.667412] (-) TimerEvent: {}
+[92.767543] (-) TimerEvent: {}
+[92.867672] (-) TimerEvent: {}
+[92.967792] (-) TimerEvent: {}
+[93.067928] (-) TimerEvent: {}
+[93.168049] (-) TimerEvent: {}
+[93.268207] (-) TimerEvent: {}
+[93.368361] (-) TimerEvent: {}
+[93.468481] (-) TimerEvent: {}
+[93.568699] (-) TimerEvent: {}
+[93.668824] (-) TimerEvent: {}
+[93.768945] (-) TimerEvent: {}
+[93.869076] (-) TimerEvent: {}
+[93.969326] (-) TimerEvent: {}
+[94.069457] (-) TimerEvent: {}
+[94.169582] (-) TimerEvent: {}
+[94.269744] (-) TimerEvent: {}
+[94.369870] (-) TimerEvent: {}
+[94.470026] (-) TimerEvent: {}
+[94.570139] (-) TimerEvent: {}
+[94.670241] (-) TimerEvent: {}
+[94.770347] (-) TimerEvent: {}
+[94.870464] (-) TimerEvent: {}
+[94.970582] (-) TimerEvent: {}
+[95.070702] (-) TimerEvent: {}
+[95.170853] (-) TimerEvent: {}
+[95.270983] (-) TimerEvent: {}
+[95.371114] (-) TimerEvent: {}
+[95.471233] (-) TimerEvent: {}
+[95.571353] (-) TimerEvent: {}
+[95.671473] (-) TimerEvent: {}
+[95.771580] (-) TimerEvent: {}
+[95.871711] (-) TimerEvent: {}
+[95.971878] (-) TimerEvent: {}
+[96.072003] (-) TimerEvent: {}
+[96.172122] (-) TimerEvent: {}
+[96.272238] (-) TimerEvent: {}
+[96.372350] (-) TimerEvent: {}
+[96.472469] (-) TimerEvent: {}
+[96.572599] (-) TimerEvent: {}
+[96.672720] (-) TimerEvent: {}
+[96.772864] (-) TimerEvent: {}
+[96.872984] (-) TimerEvent: {}
+[96.973162] (-) TimerEvent: {}
+[97.073319] (-) TimerEvent: {}
+[97.173440] (-) TimerEvent: {}
+[97.273568] (-) TimerEvent: {}
+[97.373695] (-) TimerEvent: {}
+[97.473826] (-) TimerEvent: {}
+[97.573946] (-) TimerEvent: {}
+[97.674099] (-) TimerEvent: {}
+[97.774220] (-) TimerEvent: {}
+[97.874338] (-) TimerEvent: {}
+[97.974457] (-) TimerEvent: {}
+[98.074568] (-) TimerEvent: {}
+[98.174677] (-) TimerEvent: {}
+[98.274847] (-) TimerEvent: {}
+[98.374981] (-) TimerEvent: {}
+[98.475088] (-) TimerEvent: {}
+[98.575195] (-) TimerEvent: {}
+[98.675314] (-) TimerEvent: {}
+[98.775467] (-) TimerEvent: {}
+[98.875630] (-) TimerEvent: {}
+[98.975778] (-) TimerEvent: {}
+[99.075932] (-) TimerEvent: {}
+[99.176082] (-) TimerEvent: {}
+[99.276219] (-) TimerEvent: {}
+[99.376353] (-) TimerEvent: {}
+[99.476478] (-) TimerEvent: {}
+[99.576604] (-) TimerEvent: {}
+[99.676712] (-) TimerEvent: {}
+[99.776833] (-) TimerEvent: {}
+[99.877087] (-) TimerEvent: {}
+[99.977221] (-) TimerEvent: {}
+[100.077355] (-) TimerEvent: {}
+[100.177489] (-) TimerEvent: {}
+[100.277621] (-) TimerEvent: {}
+[100.379295] (-) TimerEvent: {}
+[100.479484] (-) TimerEvent: {}
+[100.579707] (-) TimerEvent: {}
+[100.680008] (-) TimerEvent: {}
+[100.780171] (-) TimerEvent: {}
+[100.880400] (-) TimerEvent: {}
+[100.980645] (-) TimerEvent: {}
+[101.080868] (-) TimerEvent: {}
+[101.181109] (-) TimerEvent: {}
+[101.281362] (-) TimerEvent: {}
+[101.381640] (-) TimerEvent: {}
+[101.481903] (-) TimerEvent: {}
+[101.582143] (-) TimerEvent: {}
+[101.682309] (-) TimerEvent: {}
+[101.782531] (-) TimerEvent: {}
+[101.882740] (-) TimerEvent: {}
+[101.982997] (-) TimerEvent: {}
+[102.083265] (-) TimerEvent: {}
+[102.183487] (-) TimerEvent: {}
+[102.283748] (-) TimerEvent: {}
+[102.384026] (-) TimerEvent: {}
+[102.484291] (-) TimerEvent: {}
+[102.584498] (-) TimerEvent: {}
+[102.684721] (-) TimerEvent: {}
+[102.784973] (-) TimerEvent: {}
+[102.885240] (-) TimerEvent: {}
+[102.985513] (-) TimerEvent: {}
+[103.085748] (-) TimerEvent: {}
+[103.185986] (-) TimerEvent: {}
+[103.286210] (-) TimerEvent: {}
+[103.386428] (-) TimerEvent: {}
+[103.486736] (-) TimerEvent: {}
+[103.587007] (-) TimerEvent: {}
+[103.687162] (-) TimerEvent: {}
+[103.787398] (-) TimerEvent: {}
+[103.887713] (-) TimerEvent: {}
+[103.987976] (-) TimerEvent: {}
+[104.088133] (-) TimerEvent: {}
+[104.188406] (-) TimerEvent: {}
+[104.288676] (-) TimerEvent: {}
+[104.388955] (-) TimerEvent: {}
+[104.489223] (-) TimerEvent: {}
+[104.589416] (-) TimerEvent: {}
+[104.689698] (-) TimerEvent: {}
+[104.789846] (-) TimerEvent: {}
+[104.890120] (-) TimerEvent: {}
+[104.990402] (-) TimerEvent: {}
+[105.090683] (-) TimerEvent: {}
+[105.191015] (-) TimerEvent: {}
+[105.291278] (-) TimerEvent: {}
+[105.391545] (-) TimerEvent: {}
+[105.491790] (-) TimerEvent: {}
+[105.592086] (-) TimerEvent: {}
+[105.692245] (-) TimerEvent: {}
+[105.792475] (-) TimerEvent: {}
+[105.892687] (-) TimerEvent: {}
+[105.992897] (-) TimerEvent: {}
+[106.093172] (-) TimerEvent: {}
+[106.193331] (-) TimerEvent: {}
+[106.293628] (-) TimerEvent: {}
+[106.393936] (-) TimerEvent: {}
+[106.494093] (-) TimerEvent: {}
+[106.594367] (-) TimerEvent: {}
+[106.694595] (-) TimerEvent: {}
+[106.794924] (-) TimerEvent: {}
+[106.895198] (-) TimerEvent: {}
+[106.995418] (-) TimerEvent: {}
+[107.095686] (-) TimerEvent: {}
+[107.195965] (-) TimerEvent: {}
+[107.296116] (-) TimerEvent: {}
+[107.396313] (-) TimerEvent: {}
+[107.496523] (-) TimerEvent: {}
+[107.596680] (-) TimerEvent: {}
+[107.696955] (-) TimerEvent: {}
+[107.797218] (-) TimerEvent: {}
+[107.897379] (-) TimerEvent: {}
+[107.997596] (-) TimerEvent: {}
+[108.097866] (-) TimerEvent: {}
+[108.198144] (-) TimerEvent: {}
+[108.298302] (-) TimerEvent: {}
+[108.398529] (-) TimerEvent: {}
+[108.498805] (-) TimerEvent: {}
+[108.598963] (-) TimerEvent: {}
+[108.699233] (-) TimerEvent: {}
+[108.799505] (-) TimerEvent: {}
+[108.899726] (-) TimerEvent: {}
+[108.999917] (-) TimerEvent: {}
+[109.100078] (-) TimerEvent: {}
+[109.200233] (-) TimerEvent: {}
+[109.300384] (-) TimerEvent: {}
+[109.400653] (-) TimerEvent: {}
+[109.500922] (-) TimerEvent: {}
+[109.601212] (-) TimerEvent: {}
+[109.701479] (-) TimerEvent: {}
+[109.801709] (-) TimerEvent: {}
+[109.901952] (-) TimerEvent: {}
+[110.002222] (-) TimerEvent: {}
+[110.102372] (-) TimerEvent: {}
+[110.202586] (-) TimerEvent: {}
+[110.302741] (-) TimerEvent: {}
+[110.403038] (-) TimerEvent: {}
+[110.503198] (-) TimerEvent: {}
+[110.603471] (-) TimerEvent: {}
+[110.703748] (-) TimerEvent: {}
+[110.804028] (-) TimerEvent: {}
+[110.904193] (-) TimerEvent: {}
+[111.004455] (-) TimerEvent: {}
+[111.104708] (-) TimerEvent: {}
+[111.204843] (-) TimerEvent: {}
+[111.305001] (-) TimerEvent: {}
+[111.405273] (-) TimerEvent: {}
+[111.505497] (-) TimerEvent: {}
+[111.605714] (-) TimerEvent: {}
+[111.706007] (-) TimerEvent: {}
+[111.806207] (-) TimerEvent: {}
+[111.906480] (-) TimerEvent: {}
+[112.006716] (-) TimerEvent: {}
+[112.106957] (-) TimerEvent: {}
+[112.207169] (-) TimerEvent: {}
+[112.307390] (-) TimerEvent: {}
+[112.407601] (-) TimerEvent: {}
+[112.507880] (-) TimerEvent: {}
+[112.608047] (-) TimerEvent: {}
+[112.708175] (-) TimerEvent: {}
+[112.808330] (-) TimerEvent: {}
+[112.908453] (-) TimerEvent: {}
+[113.008572] (-) TimerEvent: {}
+[113.108732] (-) TimerEvent: {}
+[113.208885] (-) TimerEvent: {}
+[113.309126] (-) TimerEvent: {}
+[113.409262] (-) TimerEvent: {}
+[113.509432] (-) TimerEvent: {}
+[113.609593] (-) TimerEvent: {}
+[113.709719] (-) TimerEvent: {}
+[113.809825] (-) TimerEvent: {}
+[113.909944] (-) TimerEvent: {}
+[114.010069] (-) TimerEvent: {}
+[114.110199] (-) TimerEvent: {}
+[114.210361] (-) TimerEvent: {}
+[114.315508] (-) TimerEvent: {}
+[114.415684] (-) TimerEvent: {}
+[114.515917] (-) TimerEvent: {}
+[114.616041] (-) TimerEvent: {}
+[114.716163] (-) TimerEvent: {}
+[114.816300] (-) TimerEvent: {}
+[114.916453] (-) TimerEvent: {}
+[115.016588] (-) TimerEvent: {}
+[115.116715] (-) TimerEvent: {}
+[115.216843] (-) TimerEvent: {}
+[115.316932] (-) TimerEvent: {}
+[115.417076] (-) TimerEvent: {}
+[115.517210] (-) TimerEvent: {}
+[115.617342] (-) TimerEvent: {}
+[115.717482] (-) TimerEvent: {}
+[115.817651] (-) TimerEvent: {}
+[115.917892] (-) TimerEvent: {}
+[116.018038] (-) TimerEvent: {}
+[116.118193] (-) TimerEvent: {}
+[116.218336] (-) TimerEvent: {}
+[116.318547] (-) TimerEvent: {}
+[116.418830] (-) TimerEvent: {}
+[116.518984] (-) TimerEvent: {}
+[116.619128] (-) TimerEvent: {}
+[116.719262] (-) TimerEvent: {}
+[116.819397] (-) TimerEvent: {}
+[116.919543] (-) TimerEvent: {}
+[117.019678] (-) TimerEvent: {}
+[117.119860] (-) TimerEvent: {}
+[117.220006] (-) TimerEvent: {}
+[117.320152] (-) TimerEvent: {}
+[117.420276] (-) TimerEvent: {}
+[117.520452] (-) TimerEvent: {}
+[117.620661] (-) TimerEvent: {}
+[117.720930] (-) TimerEvent: {}
+[117.821077] (-) TimerEvent: {}
+[117.921221] (-) TimerEvent: {}
+[118.021361] (-) TimerEvent: {}
+[118.121541] (-) TimerEvent: {}
+[118.221725] (-) TimerEvent: {}
+[118.321976] (-) TimerEvent: {}
+[118.422209] (-) TimerEvent: {}
+[118.522462] (-) TimerEvent: {}
+[118.622655] (-) TimerEvent: {}
+[118.722852] (-) TimerEvent: {}
+[118.823011] (-) TimerEvent: {}
+[118.923167] (-) TimerEvent: {}
+[119.023332] (-) TimerEvent: {}
+[119.123559] (-) TimerEvent: {}
+[119.223740] (-) TimerEvent: {}
+[119.323919] (-) TimerEvent: {}
+[119.424059] (-) TimerEvent: {}
+[119.524235] (-) TimerEvent: {}
+[119.624362] (-) TimerEvent: {}

@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim/scripts/aruco_detector.py

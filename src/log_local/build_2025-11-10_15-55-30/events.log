@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000303] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.000325] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.000354] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.000372] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.000378] (-) JobUnselected: {'identifier': 'ur10_camera_gripper_moveit_config'}
+[0.000384] (-) JobUnselected: {'identifier': 'ur10_camera_moveit_config'}
+[0.000390] (-) JobUnselected: {'identifier': 'ur5_camera_gripper_moveit_config'}
+[0.000395] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config'}
+[0.000400] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000406] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.000413] (ur_yt_sim) JobQueued: {'identifier': 'ur_yt_sim', 'dependencies': OrderedDict([('robotiq_description', '/home/spaceshipecsat/ur_10_CatapultTest/src/install_local/robotiq_description'), ('ur_description', '/home/spaceshipecsat/ur_10_CatapultTest/src/install_local/ur_description')])}
+[0.000422] (ur_yt_sim) JobStarted: {'identifier': 'ur_yt_sim'}
+[0.010716] (ur_yt_sim) JobEnded: {'identifier': 'ur_yt_sim', 'rc': 1}
+[0.020989] (-) EventReactorShutdown: {}

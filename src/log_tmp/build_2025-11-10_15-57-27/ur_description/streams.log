@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp/ur_description': /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.069s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.112s] -- Detecting C compiler ABI info - done
+[0.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.116s] -- Detecting C compile features
+[0.116s] -- Detecting C compile features - done
+[0.117s] -- Detecting CXX compiler ABI info
+[0.160s] -- Detecting CXX compiler ABI info - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.164s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.170s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.170s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.170s]   has asked CMake to find a package configuration file provided by
+[0.170s]   "ament_cmake", but CMake did not find one.
+[0.170s] 
+[0.170s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.170s]   any of the following names:
+[0.170s] 
+[0.170s]     ament_cmakeConfig.cmake
+[0.170s]     ament_cmake-config.cmake
+[0.170s] 
+[0.170s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.170s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.170s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.170s]   has been installed.
+[0.170s] 
+[0.171s] 
+[0.171s] -- Configuring incomplete, errors occurred!
+[0.171s] See also "/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp/ur_description/CMakeFiles/CMakeOutput.log".
+[0.173s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp/ur_description' returned '1': /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp

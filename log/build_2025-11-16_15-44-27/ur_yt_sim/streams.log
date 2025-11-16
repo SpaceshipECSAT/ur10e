@@ -1,0 +1,91 @@
+[0.006s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/opt/ros/humble /usr/bin/cmake --build /home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim -- -j32 -l32
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target test1[0m
+[0.047s] [ 33%] Built target aruco_docking_node
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/test1.dir/src/test1.cpp.o[0m
+[0.050s] [ 83%] Built target test_world3
+[3.328s] [100%] [32m[1mLinking CXX executable test1[0m
+[3.458s] [100%] Built target test1
+[3.469s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/opt/ros/humble /usr/bin/cmake --build /home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim -- -j32 -l32
+[3.470s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/opt/ros/humble /usr/bin/cmake --install /home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim
+[3.475s] -- Install configuration: ""
+[3.475s] -- Execute custom install script
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.png
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.stl
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper_moveit2.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper_moveit_basic.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur5_camera.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur5_camera_gripper.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur5_camera_gripper_moveit.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur5_camera_gripper_moveit2.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur5_camera_moveit.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur5_camera.launch.py
+[3.476s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur5_camera_gripper.launch.py
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/camera.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper.ros2_control.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper_macro.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10.ros2_control.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera.urdf.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera_gripper.urdf.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_macro.xacro
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/initial_positions.yaml
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers.yaml
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers_gripper.yaml
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae
+[3.477s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.png
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.stl
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/worlds/world1.world
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/worlds/world2.world
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/worlds/world4.world
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/rviz/config_ur5_robotiq.rviz
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/rviz/view_ur5_camera.rviz
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/New_cylinder_world/model.config
+[3.478s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/New_cylinder_world/model.sdf
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/base/model.config
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/base/model.sdf
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/cube_sat_sim/model.config
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/cube_sat_sim/model.sdf
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/materials/scripts/aruco.material
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/materials/textures/aruco_marker_0.png
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/materials/textures/aruco_marker_1.png
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/materials/textures/aruco_marker_2.png
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/materials/textures/aruco_marker_3.png
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/model.config
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/docked_spacecraft/model.sdf
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.config
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.sdf
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.dae
+[3.479s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.stl
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.config
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.sdf
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes/mini_stacking_box2.dae
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.config
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.sdf
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/notch_ring/meshes/notch_ringdae.dae
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/notch_ring/model.config
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/notch_ring/model.sdf
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/other_side/meshes/other_side.dae
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/other_side/model.config
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/other_side/model.sdf
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.config
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.sdf
+[3.480s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/lib/ur_yt_sim/aruco_detector.py
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/lib/ur_yt_sim//test_world3
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/lib/ur_yt_sim//test1
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/lib/ur_yt_sim//aruco_docking_node
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ament_index/resource_index/package_run_dependencies/ur_yt_sim
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ament_index/resource_index/parent_prefix_path/ur_yt_sim
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.sh
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.dsv
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/environment/path.sh
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/environment/path.dsv
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/local_setup.bash
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/local_setup.sh
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/local_setup.zsh
+[3.481s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/local_setup.dsv
+[3.481s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/package.dsv
+[3.485s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ament_index/resource_index/packages/ur_yt_sim
+[3.485s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig.cmake
+[3.485s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig-version.cmake
+[3.485s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim/share/ur_yt_sim/package.xml
+[3.486s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur5_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur10_camera_gripper_moveit_config:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_yt_sim:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/opt/ros/humble /usr/bin/cmake --install /home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim

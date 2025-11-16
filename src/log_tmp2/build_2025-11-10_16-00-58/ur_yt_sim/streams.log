@@ -1,0 +1,44 @@
+[0.004s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_yt_sim': AMENT_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2:/opt/ros/humble /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2
+[0.013s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.082s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.098s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.100s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.103s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.126s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.127s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.185s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.208s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.221s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.226s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.288s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.298s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.301s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.311s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.332s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.347s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.397s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.410s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.419s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.436s] CMake Error at CMakeLists.txt:17 (find_package):
+[0.436s]   By not providing "Findlinkattacher_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.436s]   project has asked CMake to find a package configuration file provided by
+[0.436s]   "linkattacher_msgs", but CMake did not find one.
+[0.436s] 
+[0.436s]   Could not find a package configuration file provided by "linkattacher_msgs"
+[0.436s]   with any of the following names:
+[0.436s] 
+[0.436s]     linkattacher_msgsConfig.cmake
+[0.437s]     linkattacher_msgs-config.cmake
+[0.437s] 
+[0.437s]   Add the installation prefix of "linkattacher_msgs" to CMAKE_PREFIX_PATH or
+[0.437s]   set "linkattacher_msgs_DIR" to a directory containing one of the above
+[0.437s]   files.  If "linkattacher_msgs" provides a separate development package or
+[0.437s]   SDK, be sure it has been installed.
+[0.437s] 
+[0.437s] 
+[0.437s] -- Configuring incomplete, errors occurred!
+[0.437s] See also "/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_yt_sim/CMakeFiles/CMakeOutput.log".
+[0.462s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/src/build_tmp2/ur_yt_sim' returned '1': AMENT_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2:/opt/ros/humble /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/src/install_tmp2

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher/libgazebo_link_attacher.so" "TARGETS" "gazebo_link_attacher" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

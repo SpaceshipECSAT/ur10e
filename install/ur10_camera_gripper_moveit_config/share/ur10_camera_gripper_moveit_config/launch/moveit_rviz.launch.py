@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/src/ur10_camera_gripper_moveit_config/launch/moveit_rviz.launch.py

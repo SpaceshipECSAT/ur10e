@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/build/ur5_camera_moveit_config/ament_cmake_core/ur5_camera_moveit_configConfig-version.cmake

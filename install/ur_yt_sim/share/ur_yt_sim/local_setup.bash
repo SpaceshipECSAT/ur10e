@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim/ament_cmake_environment_hooks/local_setup.bash

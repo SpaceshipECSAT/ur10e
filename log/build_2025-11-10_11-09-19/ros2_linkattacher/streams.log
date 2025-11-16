@@ -1,0 +1,108 @@
+[0.006s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/IFRA_LinkAttacher/ros2_LinkAttacher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher
+[0.014s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.074s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.077s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.110s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.125s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.125s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.128s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.153s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.206s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.246s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.263s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.264s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.267s] -- Searching for dependencies of ignition-math6
+[0.268s] -- Looking for OGRE...
+[0.272s] -- Found Ogre Ghadamon (1.9.0)
+[0.272s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.278s] -- Looking for OGRE_Paging...
+[0.278s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.278s] -- Looking for OGRE_Terrain...
+[0.278s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.278s] -- Looking for OGRE_Property...
+[0.278s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.278s] -- Looking for OGRE_RTShaderSystem...
+[0.278s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.278s] -- Looking for OGRE_Volume...
+[0.278s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.278s] -- Looking for OGRE_Overlay...
+[0.278s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.328s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.328s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.328s] -- Searching for dependencies of ignition-transport8
+[0.338s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.343s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.347s] -- Checking for module 'libzmq >= 4'
+[0.355s] --   Found libzmq , version 4.3.4
+[0.381s] -- Checking for module 'uuid'
+[0.389s] --   Found uuid, version 2.37.2
+[0.409s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.410s] -- Searching for dependencies of ignition-msgs5
+[0.420s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.424s] -- Checking for module 'tinyxml2'
+[0.432s] --   Found tinyxml2, version 9.0.0
+[0.453s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.453s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.453s] -- Searching for dependencies of ignition-common3
+[0.453s] -- Looking for dlfcn.h - found
+[0.453s] -- Looking for libdl - found
+[0.460s] -- Searching for <ignition-common3> component [graphics]
+[0.460s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.460s] -- Searching for dependencies of ignition-common3-graphics
+[0.461s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.461s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.461s] -- Searching for dependencies of ignition-fuel_tools4
+[0.483s] -- Checking for module 'jsoncpp'
+[0.491s] --   Found jsoncpp, version 1.9.5
+[0.515s] -- Checking for module 'libzip'
+[0.523s] --   Found libzip, version 1.7.3
+[0.543s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.543s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.544s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.544s] -- Gazebo version: 11.10
+[0.545s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[0.569s] -- Found linkattacher_msgs: 0.0.0 (/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[0.577s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.578s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.578s] -- Configured cppcheck include dirs: /home/spaceshipecsat/ur_10_CatapultTest/src/IFRA_LinkAttacher/ros2_LinkAttacher/include
+[0.578s] -- Configured cppcheck exclude dirs and/or files: 
+[0.578s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.578s] -- Configured cpplint exclude dirs and/or files: 
+[0.578s] -- Added test 'lint_cmake' to check CMake code style
+[0.579s] -- Added test 'uncrustify' to check C / C++ code style
+[0.579s] -- Configured uncrustify additional arguments: 
+[0.579s] -- Added test 'xmllint' to check XML markup files
+[0.579s] -- Configuring done
+[0.592s] -- Generating done
+[0.594s] -- Build files have been written to: /home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher
+[0.600s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/IFRA_LinkAttacher/ros2_LinkAttacher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher
+[0.601s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher -- -j32 -l32
+[0.629s] [35m[1mConsolidate compiler generated dependencies of target gazebo_link_attacher[0m
+[0.646s] [100%] Built target gazebo_link_attacher
+[0.652s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher -- -j32 -l32
+[0.654s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher
+[0.659s] -- Install configuration: ""
+[0.659s] -- Execute custom install script
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.sh
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.dsv
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib/libgazebo_link_attacher.so
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ament_index/resource_index/package_run_dependencies/ros2_linkattacher
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ament_index/resource_index/parent_prefix_path/ros2_linkattacher
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.sh
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.dsv
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.sh
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.dsv
+[0.660s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.bash
+[0.661s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.sh
+[0.661s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.zsh
+[0.661s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.dsv
+[0.661s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv
+[0.666s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ament_index/resource_index/packages/ros2_linkattacher
+[0.666s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ament_cmake_export_libraries-extras.cmake
+[0.666s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig.cmake
+[0.666s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig-version.cmake
+[0.666s] -- Up-to-date symlink: /home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/share/ros2_linkattacher/package.xml
+[0.668s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_simulation_gazebo:/home/spaceshipecsat/ur_10_CatapultTest/install/ur_description:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/spaceshipecsat/ur_10_CatapultTest/install/linkattacher_msgs/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/ros2_linkattacher/lib:/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/spaceshipecsat/ur_10_CatapultTest/build/ros2_linkattacher

@@ -1,0 +1,31 @@
+sensors:
+  - default_sensor
+default_sensor:
+  filtered_cloud_topic: filtered_cloud
+  max_range: 3.0
+  max_update_rate: 1.0
+  padding_offset: 0.1
+  padding_scale: 1.0
+  point_cloud_topic: /camera/points
+  point_subsample: 1
+  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+
+
+  self_mask:
+    self_see_default_padding: 0.05
+    self_see_default_scale: 1.0
+    self_see_links:
+      link_0:
+        name: base_link
+      link_1:
+        name: shoulder_link
+      link_2:
+        name: upper_arm_link
+      link_3:
+        name: forearm_link
+      link_4:
+        name: wrist_1_link
+      link_5:
+        name: wrist_2_link
+      link_6:
+        name: wrist_3_link

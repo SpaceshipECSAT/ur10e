@@ -1,0 +1,98 @@
+[0.006s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/ros2_robotiq_gripper/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.122s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.167s] -- Detecting CXX compiler ABI info - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.171s] -- Detecting CXX compile features
+[0.171s] -- Detecting CXX compile features - done
+[0.173s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.255s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.330s] -- Configuring done
+[0.331s] -- Generating done
+[0.332s] -- Build files have been written to: /home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description
+[0.334s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/spaceshipecsat/ur_10_CatapultTest/src/ros2_robotiq_gripper/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description
+[0.335s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description -- -j32 -l32
+[0.358s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description -- -j32 -l32
+[0.362s] Invoking command in '/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description
+[0.367s] -- Install configuration: ""
+[0.367s] -- Execute custom install script
+[0.367s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[0.372s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/config/robotiq_hand_e_controllers.yaml
+[0.377s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/launch/hand-e_control.launch.xml
+[0.381s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[0.386s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[0.391s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/launch/view_hand-e.launch.xml
+[0.395s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[0.399s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[0.404s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[0.410s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[0.414s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[0.419s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[0.424s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[0.429s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[0.435s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[0.439s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[0.444s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[0.450s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[0.454s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[0.460s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[0.463s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[0.469s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[0.474s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/hande/hand-e.stl
+[0.478s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/hande/hand-e_convex_hull.stl
+[0.483s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/hande/left_finger.stl
+[0.487s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/collision/hande/right_finger.stl
+[0.490s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[0.494s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[0.498s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[0.503s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[0.508s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[0.512s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[0.516s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[0.522s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[0.528s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[0.534s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[0.538s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[0.544s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[0.548s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[0.552s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[0.557s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[0.563s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[0.568s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/hande/hand-e.dae
+[0.572s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/hande/left_finger.dae
+[0.577s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/meshes/visual/hande/right_finger.dae
+[0.582s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[0.586s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[0.592s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[0.598s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/hand_e.ros2_control.xacro
+[0.602s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[0.606s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[0.612s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[0.615s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[0.620s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[0.625s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_hand_e_gripper.urdf.xacro
+[0.630s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/robotiq_hand_e_macro.urdf.xacro
+[0.634s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[0.640s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[0.646s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[0.649s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[0.654s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[0.658s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/environment/path.sh
+[0.664s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[0.668s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/local_setup.bash
+[0.674s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/local_setup.sh
+[0.678s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[0.683s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[0.687s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/package.dsv
+[0.693s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[0.698s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[0.703s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[0.707s] -- Symlinking: /home/spaceshipecsat/ur_10_CatapultTest/install/robotiq_description/share/robotiq_description/package.xml
+[0.714s] Invoked command in '/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description

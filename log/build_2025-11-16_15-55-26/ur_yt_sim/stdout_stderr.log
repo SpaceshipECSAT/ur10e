@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target test1[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test1.dir/src/test1.cpp.o[0m
+[ 83%] Built target aruco_docking_node
+[ 83%] Built target test_world3
+[01m[K/home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim/src/test1.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/trajectory_processing/iterative_parabolic_time_parameterization.h: No such file or directory
+   10 | #include [01;31m[K<moveit/trajectory_processing/iterative_parabolic_time_parameterization.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/test1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

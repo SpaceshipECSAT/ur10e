@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim/test_world3" "/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim/test1" "/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim/aruco_docking_node" "TARGETS" "test_world3" "test1" "aruco_docking_node" "DESTINATION" "lib/ur_yt_sim/")

@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim/launch/spawn_ur5_camera_gripper_moveit.launch.py

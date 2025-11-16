@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/build/robotiq_description/ament_cmake_core/robotiq_descriptionConfig-version.cmake

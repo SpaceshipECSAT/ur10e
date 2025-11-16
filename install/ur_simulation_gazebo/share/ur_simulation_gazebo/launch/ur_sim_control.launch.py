@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/launch/ur_sim_control.launch.py

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target test1[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test1.dir/src/test1.cpp.o[0m
+[ 83%] Built target aruco_docking_node
+[ 83%] Built target test_world3

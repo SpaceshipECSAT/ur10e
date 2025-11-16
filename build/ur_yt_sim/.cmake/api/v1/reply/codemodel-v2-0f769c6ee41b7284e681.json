@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1c668ab1b7d7b290798c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_yt_sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_docking_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_docking_node-d78a091d364b527b851a.json",
+					"name" : "aruco_docking_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test1-3b0c101c611964238c1d.json",
+					"name" : "test1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_world3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_world3-2fd647fafb290b6e4415.json",
+					"name" : "test_world3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6baf32ff9d576bdeca60.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_yt_sim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_yt_sim_uninstall-2126936a58599fa5c48f.json",
+					"name" : "ur_yt_sim_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/spaceshipecsat/ur_10_CatapultTest/build/ur_yt_sim",
+		"source" : "/home/spaceshipecsat/ur_10_CatapultTest/src/ur_yt_sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

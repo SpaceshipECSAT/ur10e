@@ -1,0 +1,1 @@
+/home/spaceshipecsat/ur_10_CatapultTest/build/linkattacher_msgs/rosidl_generator_py/linkattacher_msgs/srv/__init__.py
